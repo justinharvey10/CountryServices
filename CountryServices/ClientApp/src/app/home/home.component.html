@@ -1,0 +1,31 @@
+<h4>Country Code Lookup</h4>
+<p>Please enter a 2 digit country ISO code or 3 digit ID below.</p>
+<input ngClass="country-input" class="form-field" [(ngModel)]="inputCode" (input)="onChange()" type="text" />
+<span *ngIf="isInvalid()"
+      ngClass="alert">Please enter a valid 2 or 3 digit code</span>
+<span *ngIf="isValidCountryCode()"
+      ngClass="valid-text">Valid code entered</span>
+<table *ngIf="countrySummary">
+  <tr>
+    <td ngClass="row-label">Name</td>
+    <td>{{countrySummary.countryName}}</td>
+  </tr>
+  <tr>
+    <td ngClass="row-label">Region</td>
+    <td>{{countrySummary.region}}</td>
+  </tr>
+  <tr>
+    <td ngClass="row-label">Capital</td>
+    <td>{{countrySummary.capitalCity}}</td>
+  </tr>
+  <tr>
+    <td ngClass="row-label">Longitude</td>
+    <td>{{countrySummary.longitude}}</td>
+  </tr>
+  <tr>
+    <td ngClass="row-label">Latitude</td>
+    <td>{{countrySummary.latitude}}</td>
+  </tr>
+</table>
+
+
