@@ -9,11 +9,14 @@ namespace CountryServices.Models
     {
         public CountrySummary(CountryDetails countryDetails)
         {
-            CountryName = countryDetails.name;
-            Region = countryDetails.region.value;
-            CapitalCity = countryDetails.capitalCity;
-            Longitude = countryDetails.longitude;
-            Latitude = countryDetails.latitude;
+            if (countryDetails != null)
+            {
+                CountryName = countryDetails.name;
+                Region = countryDetails?.region?.value;
+                CapitalCity = countryDetails.capitalCity;
+                Longitude = countryDetails.longitude;
+                Latitude = countryDetails.latitude;
+            }
         }
         public string CountryName { get; set; }
         public string Region { get; set; }

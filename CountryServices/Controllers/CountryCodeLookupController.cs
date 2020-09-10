@@ -26,17 +26,32 @@ namespace CountryServices.Controllers
         [Route("GetValidCountryCodes")]
         public async Task<ActionResult<IEnumerable<string>>> GetValidCountryCodes()
         {
-            var ret = await _countryCodeLookupService.GetValidCountryCodes();
-            return Ok(ret);
+            try
+            {
+                var ret = await _countryCodeLookupService.GetValidCountryCodes();
+                return Ok(ret);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "Exception caught in GetValidCountryCodes");
+                throw;
+            }
         }
 
         [HttpGet]
         [Route("GetCountryDetails/{code}")]
         public async Task<ActionResult<CountrySummary>> GetCountryDetails(string code)
         {
-            var countryDetails = await _countryCodeLookupService.GetCountryDetails(code);
-
-            return Ok(new CountrySummary(countryDetails));
+            try
+            {
+                var countryDetails = await _countryCodeLookupService.GetCountryDetails(code);
+                return Ok(new CountrySummary(countryDetails));
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "Exception caught in GetCountryDetails");
+                throw;
+            }
         }          
     }
 }

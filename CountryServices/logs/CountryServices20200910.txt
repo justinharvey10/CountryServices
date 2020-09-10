@@ -12232,3 +12232,1292 @@ Time: 205ms
 2020-09-10 12:37:27.043 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 2 items
 2020-09-10 12:37:37.067 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
 2020-09-10 12:37:37.071 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 2 items
+2020-09-10 13:56:13.422 +01:00 [INF] Application Starting
+2020-09-10 13:56:15.061 +01:00 [DBG] Hosting starting
+2020-09-10 13:56:15.197 +01:00 [INF] User profile is available. Using 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-10 13:56:15.235 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-03a02f41-2035-465d-94f8-eb4bf75dba4d.xml'.
+2020-09-10 13:56:15.291 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-27df1ddf-d105-4d5f-852c-dce4c09fae4b.xml'.
+2020-09-10 13:56:15.296 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-8edc1013-bc47-4b36-8dae-5c9e931a44b7.xml'.
+2020-09-10 13:56:15.298 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-eb863e60-4800-4c5b-be9c-f71d48a119ef.xml'.
+2020-09-10 13:56:15.312 +01:00 [DBG] Found key {03a02f41-2035-465d-94f8-eb4bf75dba4d}.
+2020-09-10 13:56:15.320 +01:00 [DBG] Found key {27df1ddf-d105-4d5f-852c-dce4c09fae4b}.
+2020-09-10 13:56:15.404 +01:00 [DBG] Found key {8edc1013-bc47-4b36-8dae-5c9e931a44b7}.
+2020-09-10 13:56:15.413 +01:00 [DBG] Found key {eb863e60-4800-4c5b-be9c-f71d48a119ef}.
+2020-09-10 13:56:15.430 +01:00 [DBG] Considering key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} with expiration date 2020-11-22 18:38:27Z as default key.
+2020-09-10 13:56:15.452 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 13:56:15.461 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-10 13:56:15.464 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 13:56:15.480 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-10 13:56:15.489 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-10 13:56:15.497 +01:00 [DBG] Using key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} as the default key.
+2020-09-10 13:56:15.501 +01:00 [DBG] Key ring with default key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} was loaded during application startup.
+2020-09-10 13:56:15.873 +01:00 [INF] Starting @angular/cli on port 50071...
+2020-09-10 13:56:16.052 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-09-10 13:56:16.129 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 9A73203C9F48AAB3D33F14C2F849792ED89EB7F2)
+2020-09-10 13:56:16.141 +01:00 [INF] Now listening on: https://localhost:5001
+2020-09-10 13:56:16.145 +01:00 [INF] Now listening on: http://localhost:5000
+2020-09-10 13:56:16.146 +01:00 [DBG] Loaded hosting startup assembly CountryServices
+2020-09-10 13:56:16.149 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-10 13:56:16.151 +01:00 [INF] Hosting environment: Development
+2020-09-10 13:56:16.152 +01:00 [INF] Content root path: C:\Users\Justin\source\repos\CountryServices\CountryServices
+2020-09-10 13:56:16.153 +01:00 [DBG] Hosting started
+2020-09-10 13:56:16.658 +01:00 [DBG] Connection id "0HM2LH3JTHCRL" received FIN.
+2020-09-10 13:56:16.658 +01:00 [DBG] Connection id "0HM2LH3JTHCRK" received FIN.
+2020-09-10 13:56:16.706 +01:00 [DBG] Connection id "0HM2LH3JTHCRL" accepted.
+2020-09-10 13:56:16.706 +01:00 [DBG] Connection id "0HM2LH3JTHCRK" accepted.
+2020-09-10 13:56:16.715 +01:00 [DBG] Connection id "0HM2LH3JTHCRK" started.
+2020-09-10 13:56:16.715 +01:00 [DBG] Connection id "0HM2LH3JTHCRL" started.
+2020-09-10 13:56:16.745 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 13:56:16.748 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 13:56:16.858 +01:00 [DBG] Connection id "0HM2LH3JTHCRM" accepted.
+2020-09-10 13:56:16.916 +01:00 [DBG] Connection id "0HM2LH3JTHCRL" stopped.
+2020-09-10 13:56:16.916 +01:00 [DBG] Connection id "0HM2LH3JTHCRK" stopped.
+2020-09-10 13:56:16.917 +01:00 [DBG] Connection id "0HM2LH3JTHCRM" started.
+2020-09-10 13:56:16.927 +01:00 [DBG] Connection id "0HM2LH3JTHCRL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 13:56:16.936 +01:00 [DBG] Connection id "0HM2LH3JTHCRK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 13:56:17.548 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599742576796  
+2020-09-10 13:56:17.561 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-10 13:56:17.566 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 13:56:17.627 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 13:56:17.630 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:56:18.103 +01:00 [DBG] Connection id "0HM2LH3JTHCRN" accepted.
+2020-09-10 13:56:18.115 +01:00 [DBG] Connection id "0HM2LH3JTHCRN" started.
+2020-09-10 13:56:18.233 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-10 13:56:18.234 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-10 13:56:18.235 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-10 13:56:18.236 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:56:35.035 +01:00 [INF] > countryservices@0.0.0 start C:\Users\Justin\source\repos\CountryServices\CountryServices\ClientApp
+> ng serve "--port" "50071"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:50071/webpack-dev-server/
+
+2020-09-10 13:56:36.938 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599742596793  
+2020-09-10 13:56:36.940 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 13:56:36.943 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 13:56:36.944 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:56:42.136 +01:00 [INF] i ´¢ówds´¢ú: webpack output is served from /
+i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+
+2020-09-10 13:56:42.140 +01:00 [INF] chunk {main} main.js, main.js.map (main) 34.1 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 256 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 142 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.45 MB [initial] [rendered]
+Date: 2020-09-10T12:56:42.134Z - Hash: 1f9c1330099e81b8a51e - Time: 13771ms
+
+2020-09-10 13:56:42.237 +01:00 [INF] ** Angular Live Development Server is listening on localhost:50071, open your browser on http://localhost:50071/ **
+i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-09-10 13:56:45.991 +01:00 [INF] Request finished in 28446.6118ms 0 
+2020-09-10 13:56:46.003 +01:00 [INF] Request finished in 9065.1576ms 0 
+2020-09-10 13:56:48.041 +01:00 [INF] Request finished in 29808.3351ms 304 
+2020-09-10 13:56:48.258 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-09-10 13:56:48.290 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-09-10 13:56:48.292 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-09-10 13:56:48.291 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-09-10 13:56:48.416 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-10 13:56:48.424 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-10 13:56:48.396 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-10 13:56:48.399 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-10 13:56:48.324 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-09-10 13:56:48.543 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-10 13:56:48.457 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:56:48.489 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-10 13:56:48.614 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:56:48.396 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-10 13:56:48.506 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-10 13:56:48.584 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-10 13:56:48.719 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:56:48.683 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-10 13:56:48.669 +01:00 [INF] Request finished in 379.1155ms 304 
+2020-09-10 13:56:48.700 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:56:48.882 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:56:48.892 +01:00 [INF] Request finished in 567.597ms 200 application/javascript; charset=UTF-8
+2020-09-10 13:56:48.900 +01:00 [INF] Request finished in 610.7076ms 304 
+2020-09-10 13:56:50.694 +01:00 [INF] Request finished in 2436.2779ms 304 
+2020-09-10 13:56:50.915 +01:00 [INF] Request finished in 2625.576ms 304 
+2020-09-10 13:57:00.331 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-10 13:57:00.334 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-10 13:57:00.336 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-10 13:57:00.338 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:02.369 +01:00 [INF] Request finished in 2038.493ms 304 
+2020-09-10 13:57:02.392 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-09-10 13:57:02.398 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-10 13:57:02.412 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-10 13:57:02.423 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:02.435 +01:00 [INF] Request finished in 43.6518ms 304 
+2020-09-10 13:57:02.464 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-09-10 13:57:02.466 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-10 13:57:02.469 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-10 13:57:02.470 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:02.477 +01:00 [INF] Request finished in 12.4171ms 304 
+2020-09-10 13:57:02.480 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-09-10 13:57:02.481 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-10 13:57:02.497 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-10 13:57:02.499 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:02.534 +01:00 [INF] Request finished in 53.6303ms 304 
+2020-09-10 13:57:02.559 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-09-10 13:57:02.572 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-10 13:57:02.590 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-10 13:57:02.624 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:02.665 +01:00 [INF] Request finished in 105.215ms 304 
+2020-09-10 13:57:02.689 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-09-10 13:57:02.690 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-10 13:57:02.694 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-10 13:57:02.695 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:02.699 +01:00 [INF] Request finished in 10.2988ms 304 
+2020-09-10 13:57:04.805 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599742624784  
+2020-09-10 13:57:04.807 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 13:57:04.808 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 13:57:04.810 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:04.822 +01:00 [INF] Request finished in 16.9015ms 200 application/json; charset=UTF-8
+2020-09-10 13:57:04.830 +01:00 [DBG] Connection id "0HM2LH3JTHCRO" accepted.
+2020-09-10 13:57:04.832 +01:00 [DBG] Connection id "0HM2LH3JTHCRO" started.
+2020-09-10 13:57:04.847 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/774/fklasfsw/websocket  
+2020-09-10 13:57:04.848 +01:00 [DBG] The request path /sockjs-node/774/fklasfsw/websocket does not match a supported file type
+2020-09-10 13:57:04.850 +01:00 [DBG] No candidates found for the request path '/sockjs-node/774/fklasfsw/websocket'
+2020-09-10 13:57:04.865 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:07.875 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-10 13:57:07.884 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-10 13:57:07.895 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-10 13:57:07.913 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:07.933 +01:00 [INF] Request finished in 58.1007ms 304 
+2020-09-10 13:57:07.952 +01:00 [DBG] Connection id "0HM2LH3JTHCRO" received FIN.
+2020-09-10 13:57:07.955 +01:00 [DBG] Connection id "0HM2LH3JTHCRO" sending FIN because: "The client closed the connection."
+2020-09-10 13:57:07.969 +01:00 [DBG] Connection id "0HM2LH3JTHCRO" disconnecting.
+2020-09-10 13:57:07.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-09-10 13:57:07.984 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-09-10 13:57:07.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-09-10 13:57:07.999 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-10 13:57:08.002 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-10 13:57:08.016 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-10 13:57:08.019 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-10 13:57:08.033 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-10 13:57:08.037 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-10 13:57:08.050 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:08.052 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:08.070 +01:00 [INF] Request finished in 88.3321ms 304 
+2020-09-10 13:57:08.065 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:08.087 +01:00 [INF] Request finished in 103.8015ms 304 
+2020-09-10 13:57:08.078 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-09-10 13:57:08.103 +01:00 [INF] Request finished in 3256.6439ms 101 
+2020-09-10 13:57:08.103 +01:00 [INF] Request finished in 120.6544ms 304 
+2020-09-10 13:57:08.108 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js.map  
+2020-09-10 13:57:08.116 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-10 13:57:08.116 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-09-10 13:57:08.122 +01:00 [DBG] Connection id "0HM2LH3JTHCRO" stopped.
+2020-09-10 13:57:08.149 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-10 13:57:08.163 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js.map  
+2020-09-10 13:57:08.167 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-10 13:57:08.186 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-10 13:57:08.220 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-10 13:57:08.235 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-10 13:57:08.252 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:08.271 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-10 13:57:08.300 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-10 13:57:08.283 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:08.316 +01:00 [INF] Request finished in 237.9513ms 304 
+2020-09-10 13:57:08.317 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:08.320 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:08.341 +01:00 [INF] Request finished in 232.8333ms 304 
+2020-09-10 13:57:08.356 +01:00 [INF] Request finished in 240.0305ms 200 application/javascript; charset=UTF-8
+2020-09-10 13:57:08.373 +01:00 [INF] Request finished in 209.3846ms 304 
+2020-09-10 13:57:08.438 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js.map  
+2020-09-10 13:57:08.439 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-10 13:57:08.441 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-10 13:57:08.445 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:08.450 +01:00 [INF] Request finished in 11.8914ms 200 application/json; charset=UTF-8
+2020-09-10 13:57:09.038 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js.map  
+2020-09-10 13:57:09.041 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-10 13:57:09.045 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-10 13:57:09.058 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:09.107 +01:00 [INF] Request finished in 68.9796ms 304 
+2020-09-10 13:57:09.800 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/CountryCodeLookup/GetValidCountryCodes application/json 
+2020-09-10 13:57:09.810 +01:00 [DBG] The request path /api/CountryCodeLookup/GetValidCountryCodes does not match a supported file type
+2020-09-10 13:57:09.830 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 13:57:09.840 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)' with route pattern 'api/CountryCodeLookup/GetValidCountryCodes' is valid for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 13:57:09.849 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 13:57:09.883 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css.map  
+2020-09-10 13:57:09.886 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 13:57:09.902 +01:00 [DBG] The request path /styles.css.map does not match an existing file
+2020-09-10 13:57:09.932 +01:00 [DBG] No candidates found for the request path '/styles.css.map'
+2020-09-10 13:57:09.933 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:09.939 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-09-10 13:57:09.953 +01:00 [INF] Request finished in 70.3835ms 304 
+2020-09-10 13:57:10.203 +01:00 [INF] Route matched with {action = "GetValidCountryCodes", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]]] GetValidCountryCodes() on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-10 13:57:10.210 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-10 13:57:10.214 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-10 13:57:10.228 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-10 13:57:10.246 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-10 13:57:10.254 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-10 13:57:10.295 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 13:57:10.344 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 13:57:10.418 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 13:57:10.427 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 13:57:10.803 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599742630783  
+2020-09-10 13:57:10.811 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 13:57:10.840 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 13:57:10.889 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:10.913 +01:00 [INF] Request finished in 110.8878ms 200 application/json; charset=UTF-8
+2020-09-10 13:57:10.933 +01:00 [DBG] Connection id "0HM2LH3JTHCRP" accepted.
+2020-09-10 13:57:10.936 +01:00 [DBG] Connection id "0HM2LH3JTHCRP" started.
+2020-09-10 13:57:10.951 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/172/a003w2ls/websocket  
+2020-09-10 13:57:10.952 +01:00 [DBG] The request path /sockjs-node/172/a003w2ls/websocket does not match a supported file type
+2020-09-10 13:57:10.963 +01:00 [DBG] No candidates found for the request path '/sockjs-node/172/a003w2ls/websocket'
+2020-09-10 13:57:10.965 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:11.294 +01:00 [INF] Received HTTP response after 855.2709ms - "OK"
+2020-09-10 13:57:11.307 +01:00 [INF] End processing HTTP request after 897.7872ms - "OK"
+2020-09-10 13:57:11.923 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-10 13:57:11.928 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-10 13:57:11.930 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-10 13:57:11.935 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-10 13:57:11.948 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-10 13:57:11.963 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+Concat2Iterator`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-10 13:57:12.073 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices) in 1776.3286ms
+2020-09-10 13:57:12.078 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 13:57:12.080 +01:00 [INF] Request finished in 2280.8493ms 200 application/json; charset=utf-8
+2020-09-10 13:57:24.392 +01:00 [DBG] Connection id "0HM2LH3JTHCRN" reset.
+2020-09-10 13:57:24.406 +01:00 [DBG] Connection id "0HM2LH3JTHCRN" sending FIN because: "The client closed the connection."
+2020-09-10 13:57:24.412 +01:00 [DBG] Connection id "0HM2LH3JTHCRN" is closed. The last processed stream ID was 23.
+2020-09-10 13:57:24.432 +01:00 [DBG] Connection id "0HM2LH3JTHCRN" stopped.
+2020-09-10 13:57:33.999 +01:00 [INF] Application Starting
+2020-09-10 13:57:36.177 +01:00 [DBG] Hosting starting
+2020-09-10 13:57:36.246 +01:00 [INF] User profile is available. Using 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-10 13:57:36.288 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-03a02f41-2035-465d-94f8-eb4bf75dba4d.xml'.
+2020-09-10 13:57:36.421 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-27df1ddf-d105-4d5f-852c-dce4c09fae4b.xml'.
+2020-09-10 13:57:36.425 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-8edc1013-bc47-4b36-8dae-5c9e931a44b7.xml'.
+2020-09-10 13:57:36.435 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-eb863e60-4800-4c5b-be9c-f71d48a119ef.xml'.
+2020-09-10 13:57:36.447 +01:00 [DBG] Found key {03a02f41-2035-465d-94f8-eb4bf75dba4d}.
+2020-09-10 13:57:36.454 +01:00 [DBG] Found key {27df1ddf-d105-4d5f-852c-dce4c09fae4b}.
+2020-09-10 13:57:36.456 +01:00 [DBG] Found key {8edc1013-bc47-4b36-8dae-5c9e931a44b7}.
+2020-09-10 13:57:36.457 +01:00 [DBG] Found key {eb863e60-4800-4c5b-be9c-f71d48a119ef}.
+2020-09-10 13:57:36.472 +01:00 [DBG] Considering key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} with expiration date 2020-11-22 18:38:27Z as default key.
+2020-09-10 13:57:36.493 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 13:57:36.496 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-10 13:57:36.498 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 13:57:36.504 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-10 13:57:36.510 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-10 13:57:36.515 +01:00 [DBG] Using key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} as the default key.
+2020-09-10 13:57:36.519 +01:00 [DBG] Key ring with default key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} was loaded during application startup.
+2020-09-10 13:57:36.781 +01:00 [INF] Starting @angular/cli on port 50145...
+2020-09-10 13:57:36.981 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-09-10 13:57:37.081 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 9A73203C9F48AAB3D33F14C2F849792ED89EB7F2)
+2020-09-10 13:57:37.095 +01:00 [INF] Now listening on: https://localhost:5001
+2020-09-10 13:57:37.107 +01:00 [INF] Now listening on: http://localhost:5000
+2020-09-10 13:57:37.115 +01:00 [DBG] Loaded hosting startup assembly CountryServices
+2020-09-10 13:57:37.120 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-10 13:57:37.194 +01:00 [INF] Hosting environment: Development
+2020-09-10 13:57:37.194 +01:00 [DBG] Connection id "0HM2LH4BTIV2A" received FIN.
+2020-09-10 13:57:37.194 +01:00 [DBG] Connection id "0HM2LH4BTIV2B" received FIN.
+2020-09-10 13:57:37.198 +01:00 [INF] Content root path: C:\Users\Justin\source\repos\CountryServices\CountryServices
+2020-09-10 13:57:37.211 +01:00 [DBG] Hosting started
+2020-09-10 13:57:37.229 +01:00 [DBG] Connection id "0HM2LH4BTIV2B" accepted.
+2020-09-10 13:57:37.231 +01:00 [DBG] Connection id "0HM2LH4BTIV2A" accepted.
+2020-09-10 13:57:37.254 +01:00 [DBG] Connection id "0HM2LH4BTIV2B" started.
+2020-09-10 13:57:37.257 +01:00 [DBG] Connection id "0HM2LH4BTIV2A" started.
+2020-09-10 13:57:37.305 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 13:57:37.328 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 13:57:37.567 +01:00 [DBG] Connection id "0HM2LH4BTIV2B" stopped.
+2020-09-10 13:57:37.686 +01:00 [DBG] Connection id "0HM2LH4BTIV2A" stopped.
+2020-09-10 13:57:37.710 +01:00 [DBG] Connection id "0HM2LH4BTIV2A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 13:57:37.710 +01:00 [DBG] Connection id "0HM2LH4BTIV2B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 13:57:37.804 +01:00 [DBG] Connection id "0HM2LH4BTIV2C" accepted.
+2020-09-10 13:57:37.808 +01:00 [DBG] Connection id "0HM2LH4BTIV2C" started.
+2020-09-10 13:57:38.009 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599742657783  
+2020-09-10 13:57:38.019 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-10 13:57:38.041 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 13:57:38.138 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 13:57:38.289 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:57:52.006 +01:00 [DBG] Connection id "0HM2LH4BTIV2C" received FIN.
+2020-09-10 13:57:52.017 +01:00 [DBG] Connection id "0HM2LH4BTIV2C" is closed. The last processed stream ID was 1.
+2020-09-10 13:57:52.022 +01:00 [DBG] Connection id "0HM2LH4BTIV2C" sending FIN because: "The client closed the connection."
+2020-09-10 13:57:52.496 +01:00 [INF] > countryservices@0.0.0 start C:\Users\Justin\source\repos\CountryServices\CountryServices\ClientApp
+> ng serve "--port" "50145"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:50145/webpack-dev-server/
+
+2020-09-10 13:58:01.810 +01:00 [INF] Application Starting
+2020-09-10 13:58:03.668 +01:00 [DBG] Hosting starting
+2020-09-10 13:58:03.737 +01:00 [INF] User profile is available. Using 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-10 13:58:04.002 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-03a02f41-2035-465d-94f8-eb4bf75dba4d.xml'.
+2020-09-10 13:58:04.054 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-27df1ddf-d105-4d5f-852c-dce4c09fae4b.xml'.
+2020-09-10 13:58:04.056 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-8edc1013-bc47-4b36-8dae-5c9e931a44b7.xml'.
+2020-09-10 13:58:04.058 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-eb863e60-4800-4c5b-be9c-f71d48a119ef.xml'.
+2020-09-10 13:58:04.070 +01:00 [DBG] Found key {03a02f41-2035-465d-94f8-eb4bf75dba4d}.
+2020-09-10 13:58:04.079 +01:00 [DBG] Found key {27df1ddf-d105-4d5f-852c-dce4c09fae4b}.
+2020-09-10 13:58:04.080 +01:00 [DBG] Found key {8edc1013-bc47-4b36-8dae-5c9e931a44b7}.
+2020-09-10 13:58:04.084 +01:00 [DBG] Found key {eb863e60-4800-4c5b-be9c-f71d48a119ef}.
+2020-09-10 13:58:04.093 +01:00 [DBG] Considering key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} with expiration date 2020-11-22 18:38:27Z as default key.
+2020-09-10 13:58:04.105 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 13:58:04.109 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-10 13:58:04.111 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 13:58:04.119 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-10 13:58:04.125 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-10 13:58:04.131 +01:00 [DBG] Using key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} as the default key.
+2020-09-10 13:58:04.136 +01:00 [DBG] Key ring with default key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} was loaded during application startup.
+2020-09-10 13:58:04.388 +01:00 [INF] Starting @angular/cli on port 50183...
+2020-09-10 13:58:04.574 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-09-10 13:58:04.693 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 9A73203C9F48AAB3D33F14C2F849792ED89EB7F2)
+2020-09-10 13:58:04.705 +01:00 [INF] Now listening on: https://localhost:5001
+2020-09-10 13:58:04.710 +01:00 [INF] Now listening on: http://localhost:5000
+2020-09-10 13:58:04.720 +01:00 [DBG] Loaded hosting startup assembly CountryServices
+2020-09-10 13:58:04.750 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-10 13:58:04.750 +01:00 [DBG] Connection id "0HM2LH4K4CF75" received FIN.
+2020-09-10 13:58:04.750 +01:00 [DBG] Connection id "0HM2LH4K4CF76" received FIN.
+2020-09-10 13:58:04.760 +01:00 [INF] Hosting environment: Development
+2020-09-10 13:58:04.818 +01:00 [DBG] Connection id "0HM2LH4K4CF75" accepted.
+2020-09-10 13:58:04.823 +01:00 [DBG] Connection id "0HM2LH4K4CF76" accepted.
+2020-09-10 13:58:04.826 +01:00 [INF] Content root path: C:\Users\Justin\source\repos\CountryServices\CountryServices
+2020-09-10 13:58:04.853 +01:00 [DBG] Connection id "0HM2LH4K4CF75" started.
+2020-09-10 13:58:04.900 +01:00 [DBG] Hosting started
+2020-09-10 13:58:04.901 +01:00 [DBG] Connection id "0HM2LH4K4CF76" started.
+2020-09-10 13:58:04.952 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 13:58:04.953 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 13:58:05.194 +01:00 [DBG] Connection id "0HM2LH4K4CF76" stopped.
+2020-09-10 13:58:05.337 +01:00 [DBG] Connection id "0HM2LH4K4CF75" stopped.
+2020-09-10 13:58:05.408 +01:00 [DBG] Connection id "0HM2LH4K4CF76" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 13:58:05.408 +01:00 [DBG] Connection id "0HM2LH4K4CF75" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 13:58:09.072 +01:00 [DBG] Connection id "0HM2LH4K4CF77" accepted.
+2020-09-10 13:58:09.083 +01:00 [DBG] Connection id "0HM2LH4K4CF77" started.
+2020-09-10 13:58:09.225 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599742689029  
+2020-09-10 13:58:09.231 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-10 13:58:09.235 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 13:58:09.287 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 13:58:09.289 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 13:58:19.202 +01:00 [INF] > countryservices@0.0.0 start C:\Users\Justin\source\repos\CountryServices\CountryServices\ClientApp
+> ng serve "--port" "50183"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:50183/webpack-dev-server/
+
+2020-09-10 14:01:07.947 +01:00 [INF] Application Starting
+2020-09-10 14:01:10.598 +01:00 [DBG] Hosting starting
+2020-09-10 14:01:10.678 +01:00 [INF] User profile is available. Using 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-10 14:01:10.724 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-03a02f41-2035-465d-94f8-eb4bf75dba4d.xml'.
+2020-09-10 14:01:10.793 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-27df1ddf-d105-4d5f-852c-dce4c09fae4b.xml'.
+2020-09-10 14:01:10.795 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-8edc1013-bc47-4b36-8dae-5c9e931a44b7.xml'.
+2020-09-10 14:01:10.797 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-eb863e60-4800-4c5b-be9c-f71d48a119ef.xml'.
+2020-09-10 14:01:10.811 +01:00 [DBG] Found key {03a02f41-2035-465d-94f8-eb4bf75dba4d}.
+2020-09-10 14:01:10.826 +01:00 [DBG] Found key {27df1ddf-d105-4d5f-852c-dce4c09fae4b}.
+2020-09-10 14:01:10.831 +01:00 [DBG] Found key {8edc1013-bc47-4b36-8dae-5c9e931a44b7}.
+2020-09-10 14:01:10.833 +01:00 [DBG] Found key {eb863e60-4800-4c5b-be9c-f71d48a119ef}.
+2020-09-10 14:01:10.847 +01:00 [DBG] Considering key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} with expiration date 2020-11-22 18:38:27Z as default key.
+2020-09-10 14:01:10.865 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 14:01:10.902 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-10 14:01:10.910 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 14:01:10.925 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-10 14:01:10.949 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-10 14:01:10.984 +01:00 [DBG] Using key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} as the default key.
+2020-09-10 14:01:11.004 +01:00 [DBG] Key ring with default key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} was loaded during application startup.
+2020-09-10 14:01:11.473 +01:00 [INF] Starting @angular/cli on port 49977...
+2020-09-10 14:01:11.723 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-09-10 14:01:12.252 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 9A73203C9F48AAB3D33F14C2F849792ED89EB7F2)
+2020-09-10 14:01:12.267 +01:00 [INF] Now listening on: https://localhost:5001
+2020-09-10 14:01:12.270 +01:00 [INF] Now listening on: http://localhost:5000
+2020-09-10 14:01:12.272 +01:00 [DBG] Loaded hosting startup assembly CountryServices
+2020-09-10 14:01:12.286 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-10 14:01:12.288 +01:00 [INF] Hosting environment: Development
+2020-09-10 14:01:12.305 +01:00 [INF] Content root path: C:\Users\Justin\source\repos\CountryServices\CountryServices
+2020-09-10 14:01:12.320 +01:00 [DBG] Hosting started
+2020-09-10 14:01:12.741 +01:00 [DBG] Connection id "0HM2LH6C54ESC" accepted.
+2020-09-10 14:01:12.741 +01:00 [DBG] Connection id "0HM2LH6C54ESB" accepted.
+2020-09-10 14:01:12.748 +01:00 [DBG] Connection id "0HM2LH6C54ESB" started.
+2020-09-10 14:01:12.762 +01:00 [DBG] Connection id "0HM2LH6C54ESB" received FIN.
+2020-09-10 14:01:12.762 +01:00 [DBG] Connection id "0HM2LH6C54ESC" received FIN.
+2020-09-10 14:01:12.768 +01:00 [DBG] Connection id "0HM2LH6C54ESC" started.
+2020-09-10 14:01:12.810 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 14:01:12.817 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 14:01:13.038 +01:00 [DBG] Connection id "0HM2LH6C54ESB" stopped.
+2020-09-10 14:01:13.153 +01:00 [DBG] Connection id "0HM2LH6C54ESC" stopped.
+2020-09-10 14:01:13.156 +01:00 [DBG] Connection id "0HM2LH6C54ESB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:01:13.168 +01:00 [DBG] Connection id "0HM2LH6C54ESC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:01:16.347 +01:00 [DBG] Connection id "0HM2LH6C54ESD" accepted.
+2020-09-10 14:01:16.359 +01:00 [DBG] Connection id "0HM2LH6C54ESD" started.
+2020-09-10 14:01:16.744 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-10 14:01:16.749 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-10 14:01:16.754 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-10 14:01:16.841 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-10 14:01:16.934 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:35.899 +01:00 [INF] > countryservices@0.0.0 start C:\Users\Justin\source\repos\CountryServices\CountryServices\ClientApp
+> ng serve "--port" "49977"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:49977/webpack-dev-server/
+
+2020-09-10 14:01:45.574 +01:00 [INF] i ´¢ówds´¢ú: webpack output is served from /
+i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+
+2020-09-10 14:01:45.592 +01:00 [INF] chunk {main} main.js, main.js.map (main) 34.1 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 256 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 142 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.45 MB [initial] [rendered]
+Date: 2020-09-10T13:01:45.571Z - Hash: 1f9c1330099e81b8a51e - Time: 18141ms
+
+2020-09-10 14:01:45.709 +01:00 [INF] ** Angular Live Development Server is listening on localhost:49977, open your browser on http://localhost:49977/ **
+i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-09-10 14:01:51.624 +01:00 [INF] Request finished in 34877.8236ms 200 text/html; charset=UTF-8
+2020-09-10 14:01:51.699 +01:00 [DBG] Connection id "0HM2LH6C54ESE" accepted.
+2020-09-10 14:01:51.707 +01:00 [DBG] Connection id "0HM2LH6C54ESE" started.
+2020-09-10 14:01:51.740 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-09-10 14:01:51.762 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-09-10 14:01:51.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-09-10 14:01:51.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-09-10 14:01:51.756 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-09-10 14:01:51.821 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-10 14:01:51.821 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-10 14:01:51.821 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-10 14:01:51.849 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-10 14:01:51.821 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-10 14:01:51.845 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-10 14:01:51.868 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-10 14:01:51.891 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-10 14:01:51.913 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:51.917 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-10 14:01:51.945 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-10 14:01:51.972 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:52.004 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:51.965 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:52.031 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:52.076 +01:00 [INF] Request finished in 337.3152ms 200 text/css; charset=UTF-8
+2020-09-10 14:01:52.113 +01:00 [INF] Request finished in 357.8639ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:01:52.130 +01:00 [INF] Request finished in 374.6151ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:01:52.393 +01:00 [DBG] Connection id "0HM2LH6C54ESF" accepted.
+2020-09-10 14:01:52.396 +01:00 [DBG] Connection id "0HM2LH6C54ESF" started.
+2020-09-10 14:01:52.411 +01:00 [DBG] Connection id "0HM2LH6C54ESG" accepted.
+2020-09-10 14:01:52.418 +01:00 [DBG] Connection id "0HM2LH6C54ESG" started.
+2020-09-10 14:01:52.466 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/polyfills.js.map  
+2020-09-10 14:01:52.466 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/runtime.js.map  
+2020-09-10 14:01:52.468 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-10 14:01:52.483 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-10 14:01:52.470 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-10 14:01:52.488 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:52.500 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-10 14:01:52.537 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:52.544 +01:00 [INF] Request finished in 78.9837ms 200 application/json; charset=UTF-8
+2020-09-10 14:01:52.609 +01:00 [DBG] Connection id "0HM2LH6C54ESF" disconnecting.
+2020-09-10 14:01:52.632 +01:00 [DBG] Connection id "0HM2LH6C54ESF" stopped.
+2020-09-10 14:01:52.634 +01:00 [DBG] Connection id "0HM2LH6C54ESF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:01:54.167 +01:00 [INF] Request finished in 2402.7872ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:01:54.250 +01:00 [DBG] Connection id "0HM2LH6C54ESH" accepted.
+2020-09-10 14:01:54.287 +01:00 [DBG] Connection id "0HM2LH6C54ESH" started.
+2020-09-10 14:01:54.303 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/main.js.map  
+2020-09-10 14:01:54.307 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-10 14:01:54.322 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-10 14:01:54.339 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:54.356 +01:00 [INF] Request finished in 57.6873ms 200 application/json; charset=UTF-8
+2020-09-10 14:01:54.364 +01:00 [DBG] Connection id "0HM2LH6C54ESH" disconnecting.
+2020-09-10 14:01:54.382 +01:00 [DBG] Connection id "0HM2LH6C54ESH" received FIN.
+2020-09-10 14:01:54.385 +01:00 [DBG] Connection id "0HM2LH6C54ESH" stopped.
+2020-09-10 14:01:54.415 +01:00 [INF] Request finished in 2659.8236ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:01:54.419 +01:00 [DBG] Connection id "0HM2LH6C54ESH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:01:54.600 +01:00 [INF] Request finished in 2134.712ms 200 application/json; charset=UTF-8
+2020-09-10 14:01:54.605 +01:00 [DBG] Connection id "0HM2LH6C54ESG" disconnecting.
+2020-09-10 14:01:54.606 +01:00 [DBG] Connection id "0HM2LH6C54ESG" received FIN.
+2020-09-10 14:01:54.617 +01:00 [DBG] Connection id "0HM2LH6C54ESG" stopped.
+2020-09-10 14:01:54.640 +01:00 [DBG] Connection id "0HM2LH6C54ESG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:01:55.095 +01:00 [DBG] Connection id "0HM2LH6C54ESI" accepted.
+2020-09-10 14:01:55.104 +01:00 [DBG] Connection id "0HM2LH6C54ESI" started.
+2020-09-10 14:01:55.185 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/vendor.js.map  
+2020-09-10 14:01:55.189 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-10 14:01:55.193 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-10 14:01:55.195 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:55.372 +01:00 [INF] Request finished in 187.6781ms 200 application/json; charset=UTF-8
+2020-09-10 14:01:55.388 +01:00 [DBG] Connection id "0HM2LH6C54ESI" disconnecting.
+2020-09-10 14:01:55.407 +01:00 [DBG] Connection id "0HM2LH6C54ESI" stopped.
+2020-09-10 14:01:55.425 +01:00 [DBG] Connection id "0HM2LH6C54ESI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:01:55.809 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/CountryCodeLookup/GetValidCountryCodes application/json 
+2020-09-10 14:01:55.814 +01:00 [DBG] The request path /api/CountryCodeLookup/GetValidCountryCodes does not match a supported file type
+2020-09-10 14:01:55.849 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 14:01:55.861 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599742915849  
+2020-09-10 14:01:55.863 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 14:01:55.864 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 14:01:55.870 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:01:55.873 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)' with route pattern 'api/CountryCodeLookup/GetValidCountryCodes' is valid for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 14:01:55.899 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:01:55.917 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:01:55.955 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-09-10 14:01:56.099 +01:00 [INF] Route matched with {action = "GetValidCountryCodes", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]]] GetValidCountryCodes() on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-10 14:01:56.108 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-10 14:01:56.113 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-10 14:01:56.130 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-10 14:01:56.147 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-10 14:01:56.168 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-10 14:01:56.188 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:01:56.211 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:01:56.281 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 14:01:56.284 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 14:01:56.738 +01:00 [INF] Received HTTP response after 436.6998ms - "OK"
+2020-09-10 14:01:56.747 +01:00 [INF] End processing HTTP request after 466.6675ms - "OK"
+2020-09-10 14:01:57.187 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-10 14:01:57.193 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-10 14:01:57.194 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-10 14:01:57.196 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-10 14:01:57.202 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-10 14:01:57.214 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+Concat2Iterator`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-10 14:01:57.334 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices) in 1142.5192ms
+2020-09-10 14:01:57.338 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:01:57.340 +01:00 [INF] Request finished in 1531.2659ms 200 application/json; charset=utf-8
+2020-09-10 14:01:57.910 +01:00 [INF] Request finished in 2048.6674ms 200 application/json; charset=UTF-8
+2020-09-10 14:01:57.940 +01:00 [DBG] Connection id "0HM2LH6C54ESJ" accepted.
+2020-09-10 14:01:57.949 +01:00 [DBG] Connection id "0HM2LH6C54ESJ" started.
+2020-09-10 14:01:57.979 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/403/c0g4oi5x/websocket  
+2020-09-10 14:01:57.984 +01:00 [DBG] The request path /sockjs-node/403/c0g4oi5x/websocket does not match a supported file type
+2020-09-10 14:01:58.009 +01:00 [DBG] No candidates found for the request path '/sockjs-node/403/c0g4oi5x/websocket'
+2020-09-10 14:01:58.025 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:01.956 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/CountryCodeLookup/GetCountryDetails/gb application/json 
+2020-09-10 14:02:01.983 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/gb does not match a supported file type
+2020-09-10 14:02:01.987 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-10 14:02:01.988 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-10 14:02:02.011 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:02:02.026 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:02:02.065 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-10 14:02:02.092 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-10 14:02:02.093 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-10 14:02:02.106 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-10 14:02:02.130 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-10 14:02:02.132 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-10 14:02:02.146 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:02:02.160 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:02:02.186 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-10 14:02:02.192 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-10 14:02:02.198 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-10 14:02:02.201 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-10 14:02:02.213 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-10 14:02:02.221 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-10 14:02:02.233 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-10 14:02:02.240 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-10 14:02:02.355 +01:00 [INF] Received HTTP response after 115.5194ms - "OK"
+2020-09-10 14:02:02.358 +01:00 [INF] End processing HTTP request after 124.9533ms - "OK"
+2020-09-10 14:02:02.384 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-10 14:02:02.389 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-10 14:02:02.391 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-10 14:02:02.393 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-10 14:02:02.398 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-10 14:02:02.409 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-10 14:02:02.417 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 271.5821ms
+2020-09-10 14:02:02.424 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:02:02.444 +01:00 [INF] Request finished in 488.5537ms 200 application/json; charset=utf-8
+2020-09-10 14:02:35.749 +01:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-09-10 14:02:37.526 +01:00 [INF] Date: 2020-09-10T13:02:37.514Z - Hash: cb2cb2e733eb2c8da1fe
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 33.9 kB [initial] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 142 kB [initial] [rendered]
+Time: 1292ms
+
+2020-09-10 14:02:37.532 +01:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-09-10 14:02:37.774 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-10 14:02:37.776 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-10 14:02:37.777 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-10 14:02:37.778 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:39.821 +01:00 [INF] Request finished in 2047.3023ms 200 text/html; charset=UTF-8
+2020-09-10 14:02:39.834 +01:00 [DBG] Connection id "0HM2LH6C54ESJ" received FIN.
+2020-09-10 14:02:39.838 +01:00 [DBG] Connection id "0HM2LH6C54ESJ" sending FIN because: "The client closed the connection."
+2020-09-10 14:02:39.841 +01:00 [DBG] Connection id "0HM2LH6C54ESJ" disconnecting.
+2020-09-10 14:02:39.957 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-09-10 14:02:39.958 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-09-10 14:02:39.957 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-09-10 14:02:39.957 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-09-10 14:02:39.957 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-09-10 14:02:39.975 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-10 14:02:39.977 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-10 14:02:40.021 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-10 14:02:40.000 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-10 14:02:40.053 +01:00 [INF] Request finished in 42073.9767ms 101 
+2020-09-10 14:02:40.040 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:40.055 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:40.057 +01:00 [DBG] Connection id "0HM2LH6C54ESJ" stopped.
+2020-09-10 14:02:39.978 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-10 14:02:39.979 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-10 14:02:40.169 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-10 14:02:40.152 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-10 14:02:40.186 +01:00 [DBG] Connection id "0HM2LH6C54ESK" accepted.
+2020-09-10 14:02:40.187 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:40.210 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:40.136 +01:00 [INF] Request finished in 177.8626ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:02:39.987 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-10 14:02:40.222 +01:00 [DBG] Connection id "0HM2LH6C54ESK" started.
+2020-09-10 14:02:40.271 +01:00 [INF] Request finished in 313.9337ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:02:40.288 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-10 14:02:40.322 +01:00 [DBG] Connection id "0HM2LH6C54ESL" accepted.
+2020-09-10 14:02:40.323 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/main.js.map  
+2020-09-10 14:02:40.323 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:40.345 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-10 14:02:40.351 +01:00 [INF] Request finished in 393.885ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:02:40.362 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-10 14:02:40.364 +01:00 [DBG] Connection id "0HM2LH6C54ESL" started.
+2020-09-10 14:02:40.379 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:40.395 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/polyfills.js.map  
+2020-09-10 14:02:40.460 +01:00 [DBG] Connection id "0HM2LH6C54ESM" accepted.
+2020-09-10 14:02:40.481 +01:00 [INF] Request finished in 157.7893ms 200 application/json; charset=UTF-8
+2020-09-10 14:02:40.493 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-10 14:02:40.513 +01:00 [DBG] Connection id "0HM2LH6C54ESK" disconnecting.
+2020-09-10 14:02:40.518 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-10 14:02:40.530 +01:00 [DBG] Connection id "0HM2LH6C54ESK" stopped.
+2020-09-10 14:02:40.532 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:40.553 +01:00 [DBG] Connection id "0HM2LH6C54ESK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:02:40.589 +01:00 [DBG] Connection id "0HM2LH6C54ESM" started.
+2020-09-10 14:02:40.607 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/runtime.js.map  
+2020-09-10 14:02:40.986 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-10 14:02:40.996 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-10 14:02:40.999 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:42.192 +01:00 [INF] Request finished in 2234.7594ms 200 text/css; charset=UTF-8
+2020-09-10 14:02:42.574 +01:00 [INF] Request finished in 2616.2427ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:02:42.612 +01:00 [INF] Request finished in 2216.9668ms 200 application/json; charset=UTF-8
+2020-09-10 14:02:42.614 +01:00 [DBG] Connection id "0HM2LH6C54ESL" disconnecting.
+2020-09-10 14:02:42.620 +01:00 [DBG] Connection id "0HM2LH6C54ESL" stopped.
+2020-09-10 14:02:42.640 +01:00 [DBG] Connection id "0HM2LH6C54ESL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:02:42.975 +01:00 [DBG] Connection id "0HM2LH6C54ESN" accepted.
+2020-09-10 14:02:42.985 +01:00 [DBG] Connection id "0HM2LH6C54ESN" started.
+2020-09-10 14:02:43.013 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/vendor.js.map  
+2020-09-10 14:02:43.020 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-10 14:02:43.024 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-10 14:02:43.032 +01:00 [INF] Request finished in 2424.2671ms 200 application/json; charset=UTF-8
+2020-09-10 14:02:43.042 +01:00 [DBG] Connection id "0HM2LH6C54ESM" disconnecting.
+2020-09-10 14:02:43.038 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:43.051 +01:00 [DBG] Connection id "0HM2LH6C54ESM" stopped.
+2020-09-10 14:02:43.096 +01:00 [DBG] Connection id "0HM2LH6C54ESM" received FIN.
+2020-09-10 14:02:43.108 +01:00 [DBG] Connection id "0HM2LH6C54ESM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:02:43.664 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/CountryCodeLookup/GetValidCountryCodes application/json 
+2020-09-10 14:02:43.719 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599742963657  
+2020-09-10 14:02:43.720 +01:00 [DBG] The request path /api/CountryCodeLookup/GetValidCountryCodes does not match a supported file type
+2020-09-10 14:02:43.727 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 14:02:43.726 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 14:02:43.745 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 14:02:43.744 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)' with route pattern 'api/CountryCodeLookup/GetValidCountryCodes' is valid for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 14:02:43.736 +01:00 [INF] Request finished in 723.2822ms 200 application/json; charset=UTF-8
+2020-09-10 14:02:43.758 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:43.772 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:02:43.786 +01:00 [DBG] Connection id "0HM2LH6C54ESN" disconnecting.
+2020-09-10 14:02:43.803 +01:00 [INF] Request finished in 130.8744ms 200 application/json; charset=UTF-8
+2020-09-10 14:02:43.808 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:02:43.813 +01:00 [DBG] Connection id "0HM2LH6C54ESN" stopped.
+2020-09-10 14:02:43.829 +01:00 [INF] Route matched with {action = "GetValidCountryCodes", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]]] GetValidCountryCodes() on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-10 14:02:43.842 +01:00 [DBG] Connection id "0HM2LH6C54ESN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:02:43.862 +01:00 [DBG] Connection id "0HM2LH6C54ESO" accepted.
+2020-09-10 14:02:43.877 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-10 14:02:43.914 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-10 14:02:43.918 +01:00 [DBG] Connection id "0HM2LH6C54ESO" started.
+2020-09-10 14:02:43.959 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-10 14:02:43.970 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-10 14:02:43.972 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-10 14:02:43.992 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:02:43.978 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/352/s1idft14/websocket  
+2020-09-10 14:02:44.002 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:02:44.016 +01:00 [DBG] The request path /sockjs-node/352/s1idft14/websocket does not match a supported file type
+2020-09-10 14:02:44.044 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 14:02:44.045 +01:00 [DBG] No candidates found for the request path '/sockjs-node/352/s1idft14/websocket'
+2020-09-10 14:02:44.067 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 14:02:44.077 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:44.319 +01:00 [INF] Received HTTP response after 252.6051ms - "OK"
+2020-09-10 14:02:44.322 +01:00 [INF] End processing HTTP request after 277.9913ms - "OK"
+2020-09-10 14:02:44.600 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-10 14:02:44.682 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-10 14:02:44.683 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-10 14:02:44.685 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-10 14:02:44.691 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-10 14:02:44.704 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+Concat2Iterator`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-10 14:02:44.734 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices) in 742.2996ms
+2020-09-10 14:02:44.741 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:02:44.747 +01:00 [INF] Request finished in 1083.1418ms 200 application/json; charset=utf-8
+2020-09-10 14:02:45.422 +01:00 [DBG] Connection id "0HM2LH6C54ESO" received FIN.
+2020-09-10 14:02:45.428 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/352/q3bggqmr/xhr_streaming?t=1599742965388  0
+2020-09-10 14:02:45.434 +01:00 [DBG] Connection id "0HM2LH6C54ESO" sending FIN because: "The client closed the connection."
+2020-09-10 14:02:45.440 +01:00 [DBG] POST requests are not supported
+2020-09-10 14:02:45.455 +01:00 [DBG] No candidates found for the request path '/sockjs-node/352/q3bggqmr/xhr_streaming'
+2020-09-10 14:02:45.443 +01:00 [DBG] Connection id "0HM2LH6C54ESO" disconnecting.
+2020-09-10 14:02:45.456 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:02:45.484 +01:00 [INF] Request finished in 1506.4444ms 0 
+2020-09-10 14:02:45.495 +01:00 [DBG] Connection id "0HM2LH6C54ESO" stopped.
+2020-09-10 14:03:23.595 +01:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-09-10 14:03:24.239 +01:00 [INF] Date: 2020-09-10T13:03:24.237Z - Hash: 7d8f5c45f892a5225b10
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 33.5 kB [initial] [rendered]
+Time: 320ms
+
+2020-09-10 14:03:24.251 +01:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-09-10 14:03:24.302 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-10 14:03:24.323 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-10 14:03:24.326 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-10 14:03:24.339 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:26.367 +01:00 [INF] Request finished in 2064.5254ms 200 text/html; charset=UTF-8
+2020-09-10 14:03:26.388 +01:00 [INF] Request finished in 40960.2304ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:03:26.441 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-09-10 14:03:26.442 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-09-10 14:03:26.442 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-09-10 14:03:26.442 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-09-10 14:03:26.441 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-09-10 14:03:26.444 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-10 14:03:26.445 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-10 14:03:26.494 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-10 14:03:26.460 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-10 14:03:26.473 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-10 14:03:26.474 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-10 14:03:26.458 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-10 14:03:26.511 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:26.513 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-10 14:03:26.527 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:26.543 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-10 14:03:26.549 +01:00 [INF] Request finished in 106.8784ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:03:26.558 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:26.525 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-10 14:03:26.617 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:26.648 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:26.773 +01:00 [INF] Request finished in 331.4627ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:03:26.589 +01:00 [DBG] Connection id "0HM2LH6C54ESP" accepted.
+2020-09-10 14:03:26.982 +01:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-09-10 14:03:26.576 +01:00 [INF] Request finished in 134.3498ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:03:27.020 +01:00 [DBG] Connection id "0HM2LH6C54ESQ" accepted.
+2020-09-10 14:03:27.024 +01:00 [DBG] Connection id "0HM2LH6C54ESP" started.
+2020-09-10 14:03:27.055 +01:00 [DBG] Connection id "0HM2LH6C54ESR" accepted.
+2020-09-10 14:03:27.054 +01:00 [DBG] Connection id "0HM2LH6C54ESQ" started.
+2020-09-10 14:03:27.070 +01:00 [DBG] Connection id "0HM2LH6C54ESR" started.
+2020-09-10 14:03:27.103 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/runtime.js.map  
+2020-09-10 14:03:27.076 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/main.js.map  
+2020-09-10 14:03:27.120 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-10 14:03:27.127 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-10 14:03:27.140 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-10 14:03:27.137 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-10 14:03:27.133 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/polyfills.js.map  
+2020-09-10 14:03:27.187 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-10 14:03:27.193 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-10 14:03:27.208 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:27.172 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:27.169 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:27.927 +01:00 [INF] Request finished in 1485.3697ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:03:27.969 +01:00 [INF] Date: 2020-09-10T13:03:27.951Z - Hash: ebadda195c5f396bd878
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 25.9 kB [initial] [rendered]
+Time: 557ms
+
+2020-09-10 14:03:27.997 +01:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-09-10 14:03:28.371 +01:00 [DBG] Connection id "0HM2LH6C54ESS" accepted.
+2020-09-10 14:03:28.374 +01:00 [DBG] Connection id "0HM2LH6C54ESS" started.
+2020-09-10 14:03:28.410 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/vendor.js.map  
+2020-09-10 14:03:28.412 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-10 14:03:28.426 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-10 14:03:28.428 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:29.088 +01:00 [INF] Request finished in 678.3232ms 200 application/json; charset=UTF-8
+2020-09-10 14:03:29.128 +01:00 [INF] Request finished in 2686.734ms 200 text/css; charset=UTF-8
+2020-09-10 14:03:29.148 +01:00 [DBG] Connection id "0HM2LH6C54ESS" disconnecting.
+2020-09-10 14:03:29.156 +01:00 [DBG] Connection id "0HM2LH6C54ESS" stopped.
+2020-09-10 14:03:29.207 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/CountryCodeLookup/GetValidCountryCodes application/json 
+2020-09-10 14:03:29.254 +01:00 [DBG] The request path /api/CountryCodeLookup/GetValidCountryCodes does not match a supported file type
+2020-09-10 14:03:29.253 +01:00 [DBG] Connection id "0HM2LH6C54ESS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:03:29.272 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 14:03:29.293 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)' with route pattern 'api/CountryCodeLookup/GetValidCountryCodes' is valid for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 14:03:29.310 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599743009293  
+2020-09-10 14:03:29.333 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:03:29.355 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 14:03:29.374 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:03:29.375 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 14:03:29.390 +01:00 [INF] Route matched with {action = "GetValidCountryCodes", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]]] GetValidCountryCodes() on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-10 14:03:29.434 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-10 14:03:29.404 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:29.436 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-10 14:03:29.496 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-10 14:03:29.498 +01:00 [INF] Request finished in 187.997ms 200 application/json; charset=UTF-8
+2020-09-10 14:03:29.525 +01:00 [DBG] Connection id "0HM2LH6C54EST" accepted.
+2020-09-10 14:03:29.536 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-10 14:03:29.553 +01:00 [DBG] Connection id "0HM2LH6C54EST" started.
+2020-09-10 14:03:29.554 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-10 14:03:29.574 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/987/53dacrgo/websocket  
+2020-09-10 14:03:29.584 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:03:29.595 +01:00 [DBG] The request path /sockjs-node/987/53dacrgo/websocket does not match a supported file type
+2020-09-10 14:03:29.637 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:03:29.638 +01:00 [DBG] No candidates found for the request path '/sockjs-node/987/53dacrgo/websocket'
+2020-09-10 14:03:29.653 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 14:03:29.669 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:29.685 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 14:03:29.870 +01:00 [INF] Received HTTP response after 185.219ms - "OK"
+2020-09-10 14:03:29.873 +01:00 [INF] End processing HTTP request after 220.574ms - "OK"
+2020-09-10 14:03:29.943 +01:00 [INF] Request finished in 2867.5966ms 200 application/json; charset=UTF-8
+2020-09-10 14:03:29.954 +01:00 [DBG] Connection id "0HM2LH6C54ESP" received FIN.
+2020-09-10 14:03:29.978 +01:00 [INF] Request finished in 2844.9943ms 200 application/json; charset=UTF-8
+2020-09-10 14:03:29.998 +01:00 [DBG] Connection id "0HM2LH6C54ESR" disconnecting.
+2020-09-10 14:03:29.995 +01:00 [DBG] Connection id "0HM2LH6C54ESP" disconnecting.
+2020-09-10 14:03:30.000 +01:00 [DBG] Connection id "0HM2LH6C54ESR" stopped.
+2020-09-10 14:03:30.001 +01:00 [DBG] Connection id "0HM2LH6C54ESP" sending FIN because: "The client closed the connection."
+2020-09-10 14:03:30.014 +01:00 [DBG] Connection id "0HM2LH6C54ESR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:03:30.034 +01:00 [DBG] Connection id "0HM2LH6C54ESP" stopped.
+2020-09-10 14:03:30.141 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-10 14:03:30.146 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-10 14:03:30.146 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-10 14:03:30.148 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-10 14:03:30.150 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-10 14:03:30.158 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+Concat2Iterator`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-10 14:03:30.177 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices) in 593.8662ms
+2020-09-10 14:03:30.185 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:03:30.205 +01:00 [INF] Request finished in 997.4679ms 200 application/json; charset=utf-8
+2020-09-10 14:03:30.214 +01:00 [INF] Request finished in 3111.1843ms 200 application/json; charset=UTF-8
+2020-09-10 14:03:30.224 +01:00 [DBG] Connection id "0HM2LH6C54ESQ" disconnecting.
+2020-09-10 14:03:30.228 +01:00 [DBG] Connection id "0HM2LH6C54ESQ" stopped.
+2020-09-10 14:03:30.238 +01:00 [DBG] Connection id "0HM2LH6C54ESQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:03:31.476 +01:00 [DBG] Connection id "0HM2LH6C54EST" received FIN.
+2020-09-10 14:03:31.492 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/987/4ugzdeaz/xhr_streaming?t=1599743011458  0
+2020-09-10 14:03:31.509 +01:00 [DBG] POST requests are not supported
+2020-09-10 14:03:31.510 +01:00 [DBG] Connection id "0HM2LH6C54EST" sending FIN because: "The client closed the connection."
+2020-09-10 14:03:31.522 +01:00 [DBG] No candidates found for the request path '/sockjs-node/987/4ugzdeaz/xhr_streaming'
+2020-09-10 14:03:31.526 +01:00 [DBG] Connection id "0HM2LH6C54EST" disconnecting.
+2020-09-10 14:03:31.543 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:03:31.550 +01:00 [INF] Request finished in 1976.3642ms 0 
+2020-09-10 14:03:31.580 +01:00 [DBG] Connection id "0HM2LH6C54EST" stopped.
+2020-09-10 14:03:38.821 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/CountryCodeLookup/GetCountryDetails/gb application/json 
+2020-09-10 14:03:38.828 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/gb does not match a supported file type
+2020-09-10 14:03:38.843 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-10 14:03:38.857 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-10 14:03:38.873 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:03:38.890 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:03:38.906 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-10 14:03:38.934 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-10 14:03:38.949 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-10 14:03:38.960 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-10 14:03:38.986 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-10 14:03:38.989 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-10 14:03:39.001 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:03:39.021 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:03:39.028 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-10 14:03:39.048 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-10 14:03:39.068 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-10 14:03:39.084 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-10 14:03:39.103 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-10 14:03:39.119 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-10 14:03:39.142 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-10 14:03:39.157 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-10 14:03:39.296 +01:00 [INF] Received HTTP response after 139.661ms - "OK"
+2020-09-10 14:03:39.303 +01:00 [INF] End processing HTTP request after 161.0878ms - "OK"
+2020-09-10 14:03:39.321 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-10 14:03:39.370 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-10 14:03:39.385 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-10 14:03:39.406 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-10 14:03:39.412 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-10 14:03:39.442 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-10 14:03:39.458 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 457.2105ms
+2020-09-10 14:03:39.472 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:03:39.486 +01:00 [INF] Request finished in 665.0853ms 200 application/json; charset=utf-8
+2020-09-10 14:03:56.244 +01:00 [DBG] HttpMessageHandler expired after 120000ms for client 'ICountryCodeLookupService'
+2020-09-10 14:04:00.958 +01:00 [INF] Request finished in 29466.1677ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:04:01.000 +01:00 [DBG] Connection id "0HM2LH6C54ESD" received FIN.
+2020-09-10 14:04:01.000 +01:00 [DBG] Connection id "0HM2LH6C54ESE" received FIN.
+2020-09-10 14:04:01.033 +01:00 [DBG] Connection id "0HM2LH6C54ESE" is closed. The last processed stream ID was 53.
+2020-09-10 14:04:01.035 +01:00 [DBG] Connection id "0HM2LH6C54ESE" sending FIN because: "The client closed the connection."
+2020-09-10 14:04:01.033 +01:00 [DBG] Connection id "0HM2LH6C54ESD" is closed. The last processed stream ID was 1.
+2020-09-10 14:04:01.047 +01:00 [DBG] Connection id "0HM2LH6C54ESD" sending FIN because: "The client closed the connection."
+2020-09-10 14:04:01.048 +01:00 [DBG] Connection id "0HM2LH6C54ESE" stopped.
+2020-09-10 14:04:01.066 +01:00 [DBG] Connection id "0HM2LH6C54ESD" stopped.
+2020-09-10 14:04:06.278 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2020-09-10 14:04:06.301 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.565ms - processed: 0 items - remaining: 1 items
+2020-09-10 14:04:09.127 +01:00 [INF] Application is shutting down...
+2020-09-10 14:04:09.130 +01:00 [DBG] Hosting stopping
+2020-09-10 14:04:09.145 +01:00 [DBG] Hosting stopped
+2020-09-10 14:05:12.951 +01:00 [INF] Application Starting
+2020-09-10 14:05:14.517 +01:00 [DBG] Hosting starting
+2020-09-10 14:05:14.571 +01:00 [INF] User profile is available. Using 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-10 14:05:14.600 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-03a02f41-2035-465d-94f8-eb4bf75dba4d.xml'.
+2020-09-10 14:05:14.626 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-27df1ddf-d105-4d5f-852c-dce4c09fae4b.xml'.
+2020-09-10 14:05:14.628 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-8edc1013-bc47-4b36-8dae-5c9e931a44b7.xml'.
+2020-09-10 14:05:14.629 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-eb863e60-4800-4c5b-be9c-f71d48a119ef.xml'.
+2020-09-10 14:05:14.640 +01:00 [DBG] Found key {03a02f41-2035-465d-94f8-eb4bf75dba4d}.
+2020-09-10 14:05:14.648 +01:00 [DBG] Found key {27df1ddf-d105-4d5f-852c-dce4c09fae4b}.
+2020-09-10 14:05:14.650 +01:00 [DBG] Found key {8edc1013-bc47-4b36-8dae-5c9e931a44b7}.
+2020-09-10 14:05:14.651 +01:00 [DBG] Found key {eb863e60-4800-4c5b-be9c-f71d48a119ef}.
+2020-09-10 14:05:14.666 +01:00 [DBG] Considering key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} with expiration date 2020-11-22 18:38:27Z as default key.
+2020-09-10 14:05:14.686 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 14:05:14.693 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-10 14:05:14.696 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 14:05:14.704 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-10 14:05:14.716 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-10 14:05:14.726 +01:00 [DBG] Using key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} as the default key.
+2020-09-10 14:05:14.729 +01:00 [DBG] Key ring with default key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} was loaded during application startup.
+2020-09-10 14:05:15.174 +01:00 [INF] Starting @angular/cli on port 50191...
+2020-09-10 14:05:15.301 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-09-10 14:05:15.383 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 9A73203C9F48AAB3D33F14C2F849792ED89EB7F2)
+2020-09-10 14:05:15.392 +01:00 [INF] Now listening on: https://localhost:5001
+2020-09-10 14:05:15.396 +01:00 [INF] Now listening on: http://localhost:5000
+2020-09-10 14:05:15.398 +01:00 [DBG] Loaded hosting startup assembly CountryServices
+2020-09-10 14:05:15.410 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-10 14:05:15.411 +01:00 [INF] Hosting environment: Development
+2020-09-10 14:05:15.422 +01:00 [INF] Content root path: C:\Users\Justin\source\repos\CountryServices\CountryServices
+2020-09-10 14:05:15.435 +01:00 [DBG] Hosting started
+2020-09-10 14:05:15.880 +01:00 [DBG] Connection id "0HM2LH8KJTE0L" accepted.
+2020-09-10 14:05:15.880 +01:00 [DBG] Connection id "0HM2LH8KJTE0M" accepted.
+2020-09-10 14:05:15.892 +01:00 [DBG] Connection id "0HM2LH8KJTE0L" started.
+2020-09-10 14:05:15.895 +01:00 [DBG] Connection id "0HM2LH8KJTE0M" started.
+2020-09-10 14:05:16.972 +01:00 [DBG] Connection id "0HM2LH8KJTE0L" received FIN.
+2020-09-10 14:05:16.972 +01:00 [DBG] Connection id "0HM2LH8KJTE0M" received FIN.
+2020-09-10 14:05:17.026 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 14:05:17.069 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 14:05:17.770 +01:00 [DBG] Connection id "0HM2LH8KJTE0L" stopped.
+2020-09-10 14:05:17.851 +01:00 [DBG] Connection id "0HM2LH8KJTE0M" stopped.
+2020-09-10 14:05:17.871 +01:00 [DBG] Connection id "0HM2LH8KJTE0L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:05:17.941 +01:00 [DBG] Connection id "0HM2LH8KJTE0M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:05:21.066 +01:00 [DBG] Connection id "0HM2LH8KJTE0N" accepted.
+2020-09-10 14:05:21.081 +01:00 [DBG] Connection id "0HM2LH8KJTE0N" started.
+2020-09-10 14:05:21.548 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-09-10 14:05:21.599 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-10 14:05:21.614 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-10 14:05:21.669 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-10 14:05:21.676 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:34.051 +01:00 [INF] > countryservices@0.0.0 start C:\Users\Justin\source\repos\CountryServices\CountryServices\ClientApp
+> ng serve "--port" "50191"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:50191/webpack-dev-server/
+
+2020-09-10 14:05:42.587 +01:00 [INF] i ´¢ówds´¢ú: webpack output is served from /
+i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+
+2020-09-10 14:05:42.596 +01:00 [INF] chunk {main} main.js, main.js.map (main) 25.9 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 256 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 142 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.45 MB [initial] [rendered]
+Date: 2020-09-10T13:05:42.585Z - Hash: e2e7dacb323a83cdcad5 - Time: 14199ms
+
+2020-09-10 14:05:42.695 +01:00 [INF] ** Angular Live Development Server is listening on localhost:50191, open your browser on http://localhost:50191/ **
+i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-09-10 14:05:48.633 +01:00 [INF] Request finished in 27094.5889ms 200 text/html; charset=UTF-8
+2020-09-10 14:05:48.698 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-09-10 14:05:48.762 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-09-10 14:05:48.768 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-09-10 14:05:48.767 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-09-10 14:05:48.767 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-09-10 14:05:48.797 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-10 14:05:48.797 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-10 14:05:48.798 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-10 14:05:48.798 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-10 14:05:48.816 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-10 14:05:48.817 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-10 14:05:48.859 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-10 14:05:48.878 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-10 14:05:48.903 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-10 14:05:48.912 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-10 14:05:48.940 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:48.964 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:48.984 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:48.986 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:49.010 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:49.163 +01:00 [INF] Request finished in 464.9172ms 200 text/css; charset=UTF-8
+2020-09-10 14:05:51.136 +01:00 [INF] Request finished in 2372.7012ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:05:51.136 +01:00 [INF] Request finished in 2367.086ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:05:51.268 +01:00 [INF] Request finished in 2500.66ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:05:51.376 +01:00 [DBG] Connection id "0HM2LH8KJTE0O" accepted.
+2020-09-10 14:05:51.393 +01:00 [DBG] Connection id "0HM2LH8KJTE0O" started.
+2020-09-10 14:05:51.396 +01:00 [DBG] Connection id "0HM2LH8KJTE0P" accepted.
+2020-09-10 14:05:51.423 +01:00 [DBG] Connection id "0HM2LH8KJTE0Q" accepted.
+2020-09-10 14:05:51.424 +01:00 [DBG] Connection id "0HM2LH8KJTE0P" started.
+2020-09-10 14:05:51.437 +01:00 [DBG] Connection id "0HM2LH8KJTE0Q" started.
+2020-09-10 14:05:51.476 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/main.js.map  
+2020-09-10 14:05:51.488 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-10 14:05:51.493 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/polyfills.js.map  
+2020-09-10 14:05:51.495 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-10 14:05:51.502 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-10 14:05:51.503 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:51.518 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-10 14:05:51.539 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/runtime.js.map  
+2020-09-10 14:05:51.540 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:51.542 +01:00 [INF] Request finished in 66.1088ms 200 application/json; charset=UTF-8
+2020-09-10 14:05:51.551 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-10 14:05:51.578 +01:00 [INF] Request finished in 85.3047ms 200 application/json; charset=UTF-8
+2020-09-10 14:05:51.594 +01:00 [DBG] Connection id "0HM2LH8KJTE0P" disconnecting.
+2020-09-10 14:05:51.598 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-10 14:05:51.599 +01:00 [DBG] Connection id "0HM2LH8KJTE0Q" disconnecting.
+2020-09-10 14:05:51.617 +01:00 [DBG] Connection id "0HM2LH8KJTE0P" stopped.
+2020-09-10 14:05:51.617 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:51.630 +01:00 [DBG] Connection id "0HM2LH8KJTE0Q" stopped.
+2020-09-10 14:05:51.662 +01:00 [INF] Request finished in 122.6704ms 200 application/json; charset=UTF-8
+2020-09-10 14:05:51.674 +01:00 [DBG] Connection id "0HM2LH8KJTE0Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:05:51.695 +01:00 [DBG] Connection id "0HM2LH8KJTE0O" disconnecting.
+2020-09-10 14:05:51.737 +01:00 [DBG] Connection id "0HM2LH8KJTE0P" received FIN.
+2020-09-10 14:05:51.753 +01:00 [DBG] Connection id "0HM2LH8KJTE0O" stopped.
+2020-09-10 14:05:51.759 +01:00 [DBG] Connection id "0HM2LH8KJTE0P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:05:51.767 +01:00 [DBG] Connection id "0HM2LH8KJTE0O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:05:51.880 +01:00 [INF] Request finished in 3112.2081ms 200 application/javascript; charset=UTF-8
+2020-09-10 14:05:52.414 +01:00 [DBG] Connection id "0HM2LH8KJTE0R" accepted.
+2020-09-10 14:05:52.432 +01:00 [DBG] Connection id "0HM2LH8KJTE0R" started.
+2020-09-10 14:05:52.442 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/vendor.js.map  
+2020-09-10 14:05:52.443 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-10 14:05:52.450 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-10 14:05:52.452 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:52.578 +01:00 [INF] Request finished in 136.1401ms 200 application/json; charset=UTF-8
+2020-09-10 14:05:52.586 +01:00 [DBG] Connection id "0HM2LH8KJTE0R" disconnecting.
+2020-09-10 14:05:52.593 +01:00 [DBG] Connection id "0HM2LH8KJTE0R" stopped.
+2020-09-10 14:05:52.600 +01:00 [DBG] Connection id "0HM2LH8KJTE0R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:05:52.880 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/CountryCodeLookup/GetValidCountryCodes application/json 
+2020-09-10 14:05:52.929 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1599743152898  
+2020-09-10 14:05:52.935 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-10 14:05:52.935 +01:00 [DBG] The request path /api/CountryCodeLookup/GetValidCountryCodes does not match a supported file type
+2020-09-10 14:05:52.940 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-10 14:05:52.949 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:52.959 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 14:05:52.985 +01:00 [INF] Request finished in 55.7465ms 200 application/json; charset=UTF-8
+2020-09-10 14:05:52.986 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)' with route pattern 'api/CountryCodeLookup/GetValidCountryCodes' is valid for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-10 14:05:53.002 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:05:53.028 +01:00 [DBG] Connection id "0HM2LH8KJTE0S" accepted.
+2020-09-10 14:05:53.035 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:05:53.036 +01:00 [DBG] Connection id "0HM2LH8KJTE0S" started.
+2020-09-10 14:05:53.077 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/456/cysxtaqv/websocket  
+2020-09-10 14:05:53.077 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-09-10 14:05:53.082 +01:00 [DBG] The request path /sockjs-node/456/cysxtaqv/websocket does not match a supported file type
+2020-09-10 14:05:53.206 +01:00 [DBG] No candidates found for the request path '/sockjs-node/456/cysxtaqv/websocket'
+2020-09-10 14:05:53.222 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:53.313 +01:00 [INF] Route matched with {action = "GetValidCountryCodes", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]]] GetValidCountryCodes() on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-10 14:05:53.329 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-10 14:05:53.343 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-10 14:05:53.367 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-10 14:05:53.384 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-10 14:05:53.397 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-10 14:05:53.415 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:05:53.433 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:05:53.519 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 14:05:53.527 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-10 14:05:53.911 +01:00 [INF] Received HTTP response after 365.1422ms - "OK"
+2020-09-10 14:05:53.929 +01:00 [INF] End processing HTTP request after 415.0756ms - "OK"
+2020-09-10 14:05:54.022 +01:00 [DBG] Connection id "0HM2LH8KJTE0S" received FIN.
+2020-09-10 14:05:54.059 +01:00 [DBG] Connection id "0HM2LH8KJTE0S" sending FIN because: "The client closed the connection."
+2020-09-10 14:05:54.065 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/456/ix1lb34y/xhr_streaming?t=1599743154025  0
+2020-09-10 14:05:54.069 +01:00 [DBG] Connection id "0HM2LH8KJTE0S" disconnecting.
+2020-09-10 14:05:54.085 +01:00 [DBG] POST requests are not supported
+2020-09-10 14:05:54.209 +01:00 [INF] Request finished in 1132.0923ms 0 
+2020-09-10 14:05:54.211 +01:00 [DBG] Connection id "0HM2LH8KJTE0S" stopped.
+2020-09-10 14:05:54.137 +01:00 [DBG] No candidates found for the request path '/sockjs-node/456/ix1lb34y/xhr_streaming'
+2020-09-10 14:05:54.239 +01:00 [DBG] Request did not match any endpoints
+2020-09-10 14:05:54.433 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-10 14:05:54.440 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-10 14:05:54.442 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-10 14:05:54.460 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-10 14:05:54.465 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-10 14:05:54.488 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+Concat2Iterator`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-10 14:05:54.928 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices) in 1510.7721ms
+2020-09-10 14:05:54.935 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-10 14:05:54.949 +01:00 [INF] Request finished in 2069.9298ms 200 application/json; charset=utf-8
+2020-09-10 14:05:56.678 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/CountryCodeLookup/GetCountryDetails/gb application/json 
+2020-09-10 14:05:56.683 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/gb does not match a supported file type
+2020-09-10 14:05:56.692 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-10 14:05:56.699 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-10 14:05:56.730 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:05:56.736 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:05:56.777 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-10 14:05:56.782 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-10 14:05:56.784 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-10 14:05:56.796 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-10 14:05:56.800 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-10 14:05:56.807 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-10 14:05:56.818 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:05:56.833 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-10 14:05:56.862 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-10 14:05:56.870 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-10 14:05:56.878 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-10 14:05:56.890 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-10 14:05:56.908 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-10 14:05:56.930 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-10 14:05:56.945 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-10 14:05:56.947 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-10 14:05:57.059 +01:00 [INF] Received HTTP response after 112.0984ms - "OK"
+2020-09-10 14:05:57.227 +01:00 [INF] End processing HTTP request after 281.9853ms - "OK"
+2020-09-10 14:05:57.261 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-10 14:05:57.266 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-10 14:05:57.268 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-10 14:05:57.270 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-10 14:05:57.272 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-10 14:05:57.278 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-10 14:05:57.302 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 484.1251ms
+2020-09-10 14:05:57.318 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-10 14:05:57.331 +01:00 [INF] Request finished in 653.13ms 200 application/json; charset=utf-8
+2020-09-10 14:46:51.277 +01:00 [INF] Application Starting
+2020-09-10 14:46:52.332 +01:00 [DBG] Hosting starting
+2020-09-10 14:46:52.405 +01:00 [INF] User profile is available. Using 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-10 14:46:52.436 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-03a02f41-2035-465d-94f8-eb4bf75dba4d.xml'.
+2020-09-10 14:46:52.464 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-27df1ddf-d105-4d5f-852c-dce4c09fae4b.xml'.
+2020-09-10 14:46:52.465 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-8edc1013-bc47-4b36-8dae-5c9e931a44b7.xml'.
+2020-09-10 14:46:52.466 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-eb863e60-4800-4c5b-be9c-f71d48a119ef.xml'.
+2020-09-10 14:46:52.479 +01:00 [DBG] Found key {03a02f41-2035-465d-94f8-eb4bf75dba4d}.
+2020-09-10 14:46:52.485 +01:00 [DBG] Found key {27df1ddf-d105-4d5f-852c-dce4c09fae4b}.
+2020-09-10 14:46:52.487 +01:00 [DBG] Found key {8edc1013-bc47-4b36-8dae-5c9e931a44b7}.
+2020-09-10 14:46:52.487 +01:00 [DBG] Found key {eb863e60-4800-4c5b-be9c-f71d48a119ef}.
+2020-09-10 14:46:52.500 +01:00 [DBG] Considering key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} with expiration date 2020-11-22 18:38:27Z as default key.
+2020-09-10 14:46:52.510 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 14:46:52.516 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-10 14:46:52.519 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-10 14:46:52.524 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-10 14:46:52.532 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-10 14:46:52.538 +01:00 [DBG] Using key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} as the default key.
+2020-09-10 14:46:52.540 +01:00 [DBG] Key ring with default key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} was loaded during application startup.
+2020-09-10 14:46:52.785 +01:00 [INF] Starting @angular/cli on port 50639...
+2020-09-10 14:46:52.961 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-09-10 14:46:53.097 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 9A73203C9F48AAB3D33F14C2F849792ED89EB7F2)
+2020-09-10 14:46:53.118 +01:00 [INF] Now listening on: https://localhost:5001
+2020-09-10 14:46:53.121 +01:00 [INF] Now listening on: http://localhost:5000
+2020-09-10 14:46:53.123 +01:00 [DBG] Loaded hosting startup assembly CountryServices
+2020-09-10 14:46:53.125 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-10 14:46:53.127 +01:00 [INF] Hosting environment: Development
+2020-09-10 14:46:53.135 +01:00 [INF] Content root path: C:\Users\Justin\source\repos\CountryServices\CountryServices
+2020-09-10 14:46:53.139 +01:00 [DBG] Hosting started
+2020-09-10 14:46:53.179 +01:00 [DBG] Connection id "0HM2LHVSRV9F2" accepted.
+2020-09-10 14:46:53.197 +01:00 [DBG] Connection id "0HM2LHVSRV9F1" received FIN.
+2020-09-10 14:46:53.196 +01:00 [DBG] Connection id "0HM2LHVSRV9F2" received FIN.
+2020-09-10 14:46:53.179 +01:00 [DBG] Connection id "0HM2LHVSRV9F1" accepted.
+2020-09-10 14:46:53.202 +01:00 [DBG] Connection id "0HM2LHVSRV9F2" started.
+2020-09-10 14:46:53.251 +01:00 [DBG] Connection id "0HM2LHVSRV9F1" started.
+2020-09-10 14:46:53.292 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 14:46:53.292 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-09-10 14:46:53.593 +01:00 [DBG] Connection id "0HM2LHVSRV9F2" stopped.
+2020-09-10 14:46:53.675 +01:00 [DBG] Connection id "0HM2LHVSRV9F1" stopped.
+2020-09-10 14:46:53.679 +01:00 [DBG] Connection id "0HM2LHVSRV9F2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:46:53.691 +01:00 [DBG] Connection id "0HM2LHVSRV9F1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-09-10 14:46:54.012 +01:00 [INF] Application is shutting down...
+2020-09-10 14:46:54.021 +01:00 [DBG] Hosting stopping
+2020-09-10 14:46:54.046 +01:00 [DBG] Hosting stopped
+2020-09-10 15:58:58.802 +01:00 [INF] Application Starting
