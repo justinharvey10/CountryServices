@@ -52,5 +52,4 @@ export class HomeComponent implements OnInit {
   getInputUpper() {
     return this.inputCode && this.inputCode.toUpperCase();
   }
-
 }
