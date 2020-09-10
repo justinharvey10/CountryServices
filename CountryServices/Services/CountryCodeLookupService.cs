@@ -16,9 +16,10 @@ namespace CountryServices.Services
     {
         private readonly IConfiguration _configuration;
         private readonly HttpClient _client;
-        private readonly ILogger _logger;
+        private readonly ILogger<CountryCodeLookupService> _logger;
 
-        public CountryCodeLookupService(HttpClient httpClient, IConfiguration configuration, ILogger logger)
+        public CountryCodeLookupService(
+            HttpClient httpClient, IConfiguration configuration, ILogger<CountryCodeLookupService> logger)
         {
             _configuration = configuration;
             _client = httpClient;
@@ -38,7 +39,6 @@ namespace CountryServices.Services
                 var stream = await response.Content.ReadAsStringAsync();
                 response.EnsureSuccessStatusCode();
 
-                //TBD improve de-serialisation 
                 var outerList = JsonConvert.DeserializeObject<ArrayList>(stream);
 
                 try

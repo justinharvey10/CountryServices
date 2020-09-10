@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 
 namespace CountryServices.Tests
 {
-    public class Tests
+    public class CountryCodeLookupControllerTests
     {
-        Mock<ILogger<CountryCodeLookupController>> _mockLogger = new Mock<ILogger<CountryCodeLookupController>>();
-        Mock<ICountryCodeLookupService> _mockCountryCodeLookupService = new Mock<ICountryCodeLookupService>();
+        private Mock<ILogger<CountryCodeLookupController>> _mockLogger = null;
+        private Mock<ICountryCodeLookupService> _mockCountryCodeLookupService = null;
 
         const string ISO_CODE_GB = "GB";
         private readonly List<string> _countryCodes = new List<string>() { "GB", "GBR" };
@@ -22,6 +22,8 @@ namespace CountryServices.Tests
         [SetUp]
         public void Setup()
         {
+            _mockLogger = new Mock<ILogger<CountryCodeLookupController>>();
+            _mockCountryCodeLookupService = new Mock<ICountryCodeLookupService>();
         }
 
         [Test]
@@ -58,7 +60,7 @@ namespace CountryServices.Tests
 
             Assert.AreEqual(testException, ex.InnerException);
 
-            //TBD verify logging
+            //TBD verify logging (overcome issues with extension methods)
         }
 
         [Test]

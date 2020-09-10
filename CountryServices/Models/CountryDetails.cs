@@ -48,5 +48,7 @@ namespace CountryServices.Models
         public string latitude { get; set; }
     }
 
+    
+
 
 }
