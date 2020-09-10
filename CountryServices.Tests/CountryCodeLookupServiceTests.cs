@@ -35,7 +35,7 @@ namespace CountryServices.Tests
         [Test]
         public async Task GivenApiReturnsCodes_WhenGetValidCountryCodesCalled_ThenExpectedListOfCodesIsReturned()
         {
-            HttpClient httpClient = GetHttpClientForSend(COUNTRY_CODES);
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_CODES);
 
             CountryCodeLookupService countryCodeLookupService =
                 new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
@@ -45,8 +45,21 @@ namespace CountryServices.Tests
             Assert.AreEqual("ABW", ret.First());
         }
 
+        [Test]
+        public void GivenApiNotAvaiable_WhenGetValidCountryCodesCalled_ThenExceptionIsLoggedAndThrown()
+        {
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.NotFound, null);
 
-        //public void GivenApiNotAvaiable_WhenGetValidCountryCodesCalled_ThenExceptionIsLoggedAndThrown()
+            CountryCodeLookupService countryCodeLookupService =
+                new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
+
+            var ex = Assert.Throws<AggregateException>(() =>
+            {
+                var ret = countryCodeLookupService.GetValidCountryCodes().Result;
+            });
+
+            Assert.IsAssignableFrom(typeof(HttpRequestException), ex.InnerException);
+        }
 
         //public void GivenApiReturnsCountryDetails_WhenGetCountryDetailsCalled_ThenCountryDetailsIsReturned()
 
@@ -54,7 +67,7 @@ namespace CountryServices.Tests
 
         //public void GivenApiDoesNotRecogniseCode_WhenGetCountryDetailsCalled_ThenExceptionLoggedAndThrown()
 
-        private static HttpClient GetHttpClientForSend(string response)
+        private static HttpClient GetHttpClientForSend(HttpStatusCode statusCode, string response)
         {
             var handlerMock = new Mock<HttpMessageHandler>(MockBehavior.Strict);
             handlerMock
@@ -68,8 +81,8 @@ namespace CountryServices.Tests
                // prepare the expected response of the mocked http call
                .ReturnsAsync(new HttpResponseMessage()
                {
-                   StatusCode = HttpStatusCode.OK,
-                   Content = new StringContent(response),
+                   StatusCode = statusCode,
+                   Content = statusCode == HttpStatusCode.OK ? new StringContent(response) : new StringContent(string.Empty),
                })
                .Verifiable();
 
