@@ -8,10 +8,10 @@
   <input ngClass="country-input" class="form-field" [(ngModel)]="inputCode" (input)="onChange()" type="text" />
   <span *ngIf="isInvalid()"
         ngClass="alert">Please enter a valid 2 or 3 digit code</span>
-  <span *ngIf="isValidCountryCode() && !serviceErrorMessage"
+  <span *ngIf="isValidCountryCode() && !detailsServiceErrorMessage"
         ngClass="valid-text">Valid code entered</span>
-  <span *ngIf="serviceErrorMessage"
-        ngClass="alert">{{serviceErrorMessage}}</span>
+  <span *ngIf="detailsServiceErrorMessage"
+        ngClass="alert">{{detailsServiceErrorMessage}}</span>
 
   <table *ngIf="countrySummary">
     <tr>

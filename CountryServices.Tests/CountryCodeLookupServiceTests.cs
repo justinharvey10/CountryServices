@@ -24,6 +24,9 @@ namespace CountryServices.Tests
         const string ISO_CODE_GB = "GB";
         private readonly List<string> _countryCodes = new List<string>() { "GB", "GBR" };
         const string COUNTRY_CODES = "[{\"page\":1,\"pages\":152,\"per_page\":\"2\",\"total\":304},[{\"id\":\"ABW\",\"iso2Code\":\"AW\",\"name\":\"Aruba\",\"region\":{\"id\":\"LCN\",\"iso2code\":\"ZJ\",\"value\":\"Latin America & Caribbean \"},\"adminregion\":{\"id\":\"\",\"iso2code\":\"\",\"value\":\"\"},\"incomeLevel\":{\"id\":\"HIC\",\"iso2code\":\"XD\",\"value\":\"High income\"},\"lendingType\":{\"id\":\"LNX\",\"iso2code\":\"XX\",\"value\":\"Not classified\"},\"capitalCity\":\"Oranjestad\",\"longitude\":\"-70.0167\",\"latitude\":\"12.5167\"},{\"id\":\"AFG\",\"iso2Code\":\"AF\",\"name\":\"Afghanistan\",\"region\":{\"id\":\"SAS\",\"iso2code\":\"8S\",\"value\":\"South Asia\"},\"adminregion\":{\"id\":\"SAS\",\"iso2code\":\"8S\",\"value\":\"South Asia\"},\"incomeLevel\":{\"id\":\"LIC\",\"iso2code\":\"XM\",\"value\":\"Low income\"},\"lendingType\":{\"id\":\"IDX\",\"iso2code\":\"XI\",\"value\":\"IDA\"},\"capitalCity\":\"Kabul\",\"longitude\":\"69.1761\",\"latitude\":\"34.5228\"}]]";
+        const string COUNTRY_DETAILS = "[{\"page\":1,\"pages\":1,\"per_page\":\"50\",\"total\":1},[{\"id\":\"GBR\",\"iso2Code\":\"GB\",\"name\":\"United Kingdom\",\"region\":{\"id\":\"ECS\",\"iso2code\":\"Z7\",\"value\":\"Europe & Central Asia\"},\"adminregion\":{\"id\":\"\",\"iso2code\":\"\",\"value\":\"\"},\"incomeLevel\":{\"id\":\"HIC\",\"iso2code\":\"XD\",\"value\":\"High income\"},\"lendingType\":{\"id\":\"LNX\",\"iso2code\":\"XX\",\"value\":\"Not classified\"},\"capitalCity\":\"London\",\"longitude\":\"-0.126236\",\"latitude\":\"51.5002\"}]]";
+        const string COUNTRY_DETAILS_INVALID_CODE = "[{\"message\":[{\"id\":\"120\",\"key\":\"Invalid value\",\"value\":\"The provided parameter value is not valid\"}]}]";
+
         [SetUp]
         public void Setup()
         {
@@ -42,7 +45,10 @@ namespace CountryServices.Tests
 
             var ret = await countryCodeLookupService.GetValidCountryCodes();
 
+            _mockConfiguration.Verify(c => c["CountryCodeLookup:Url"], Times.Once);
+
             Assert.AreEqual("ABW", ret.First());
+            Assert.AreEqual(4, ret.Count());
         }
 
         [Test]
@@ -61,11 +67,51 @@ namespace CountryServices.Tests
             Assert.IsAssignableFrom(typeof(HttpRequestException), ex.InnerException);
         }
 
-        //public void GivenApiReturnsCountryDetails_WhenGetCountryDetailsCalled_ThenCountryDetailsIsReturned()
+        [Test]
+        public async Task GivenApiReturnsCountryDetails_WhenGetCountryDetailsCalled_ThenCountryDetailsIsReturned()
+        {
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS);
 
-        //public void GivenNullCountryCodeUsed_WhenGetCountryDetailsCalled_ThenExceptionLoggedAndThrown()
+            CountryCodeLookupService countryCodeLookupService =
+                new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
 
-        //public void GivenApiDoesNotRecogniseCode_WhenGetCountryDetailsCalled_ThenExceptionLoggedAndThrown()
+            var countryDetails = await countryCodeLookupService.GetCountryDetails(ISO_CODE_GB);
+
+            Assert.AreEqual("United Kingdom", countryDetails.name);
+        }
+
+        [Test]
+        public void GivenNullCountryCodeUsed_WhenGetCountryDetailsCalled_ThenExceptionLoggedAndThrown()
+        {
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS);
+
+            CountryCodeLookupService countryCodeLookupService =
+                new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
+
+            var ex = Assert.Throws<AggregateException>(() =>
+            {
+                var countryDetails = countryCodeLookupService.GetCountryDetails(null).Result;
+            });
+            Mock.Verify();
+            Assert.IsInstanceOf(typeof(ArgumentException), ex.InnerException);
+        }
+
+        [Test]
+        public void GivenApiDoesNotRecogniseCode_WhenGetCountryDetailsCalled_ThenExceptionLoggedAndThrown()
+        {
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS_INVALID_CODE);
+
+            CountryCodeLookupService countryCodeLookupService =
+                new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
+
+            var ex = Assert.Throws<AggregateException>(() =>
+            {
+                var countryDetails = countryCodeLookupService.GetCountryDetails("ZZ").Result;
+            });
+
+            Assert.IsInstanceOf(typeof(ApplicationException), ex.InnerException);
+            Assert.AreEqual($"Unexpected data in response to get country details, response: {COUNTRY_DETAILS_INVALID_CODE}", ex.InnerException.Message);
+        }
 
         private static HttpClient GetHttpClientForSend(HttpStatusCode statusCode, string response)
         {
