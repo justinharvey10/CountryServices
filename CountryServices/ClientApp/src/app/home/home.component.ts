@@ -9,7 +9,8 @@ import { Observable } from 'rxjs';
     '.country-input { width: 50px; }',
     '.alert {color: red}',
     '.row-label { width: 100px; font-weight: bold }',
-    '.valid-text { color: green; padding-left: 20px }'
+    '.valid-text { color: green; padding-left: 20px }',
+    '.page-error { color: red }'
   ]
 })
 export class HomeComponent implements OnInit {
@@ -18,25 +19,27 @@ export class HomeComponent implements OnInit {
   allValidCodesList: string[];
   inputCode: string;
   countrySummary: CountrySummary;
+  listServiceErrorMessage: string;
+  detailsServiceErrorMessage: string;
 
   constructor(private countryLookupService: CountryLookupService) { }
 
   ngOnInit() {
     this.validCodes$ = this.countryLookupService.getValidCountryCodes();
-    this.validCodes$.subscribe(validCodes => {
-      this.allValidCodesList = validCodes;
-      console.log("Received " + validCodes.length + " valid codes");
+    this.validCodes$.subscribe({
+      next: validCodes => this.allValidCodesList = validCodes,
+      error: () => this.listServiceErrorMessage = 'There was a problem loading the page, please try again later'
     });
   }
   onChange() {
     this.countrySummary = null;
+    this.detailsServiceErrorMessage = null;
 
-    if (this.inputCode.length > 1 && this.isValidCountryCode()) {
+    if (this.inputCode.length > 1 && !this.isInvalid()) {
       
       this.countryLookupService.getCountryDetails(this.inputCode).subscribe({
         next: countrySummaryIn => this.countrySummary = countrySummaryIn,
-        error: () => console.log('Failed to retrieve country summary for code: ' + this.inputCode),
-        complete: () => console.log('Completed call to retrieve country summary')
+        error: () => this.detailsServiceErrorMessage = 'There was a problem getting country details, please try again later'
       });
     }
   }
