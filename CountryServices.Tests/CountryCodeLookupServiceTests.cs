@@ -38,14 +38,15 @@ namespace CountryServices.Tests
         [Test]
         public async Task GivenApiReturnsCodes_WhenGetValidCountryCodesCalled_ThenExpectedListOfCodesIsReturned()
         {
-            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_CODES);
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_CODES, out Mock<HttpMessageHandler> handlerMock);
 
             CountryCodeLookupService countryCodeLookupService =
                 new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
 
             var ret = await countryCodeLookupService.GetValidCountryCodes();
 
-            _mockConfiguration.Verify(c => c["CountryCodeLookup:Url"], Times.Once);
+            VerifyServiceCreationSteps();
+            VerifyHttpClientSendCall(handlerMock, Times.Once());
 
             Assert.AreEqual("ABW", ret.First());
             Assert.AreEqual(4, ret.Count());
@@ -54,7 +55,7 @@ namespace CountryServices.Tests
         [Test]
         public void GivenApiNotAvaiable_WhenGetValidCountryCodesCalled_ThenExceptionIsLoggedAndThrown()
         {
-            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.NotFound, null);
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.NotFound, null, out Mock<HttpMessageHandler> handlerMock);
 
             CountryCodeLookupService countryCodeLookupService =
                 new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
@@ -64,18 +65,24 @@ namespace CountryServices.Tests
                 var ret = countryCodeLookupService.GetValidCountryCodes().Result;
             });
 
+            VerifyServiceCreationSteps();
+            VerifyHttpClientSendCall(handlerMock, Times.Once());
+
             Assert.IsAssignableFrom(typeof(HttpRequestException), ex.InnerException);
         }
 
         [Test]
         public async Task GivenApiReturnsCountryDetails_WhenGetCountryDetailsCalled_ThenCountryDetailsIsReturned()
         {
-            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS);
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS, out Mock<HttpMessageHandler> handlerMock);
 
             CountryCodeLookupService countryCodeLookupService =
                 new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
 
             var countryDetails = await countryCodeLookupService.GetCountryDetails(ISO_CODE_GB);
+
+            VerifyServiceCreationSteps();
+            VerifyHttpClientSendCall(handlerMock, Times.Once());
 
             Assert.AreEqual("United Kingdom", countryDetails.name);
         }
@@ -83,7 +90,7 @@ namespace CountryServices.Tests
         [Test]
         public void GivenNullCountryCodeUsed_WhenGetCountryDetailsCalled_ThenExceptionLoggedAndThrown()
         {
-            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS);
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS, out Mock<HttpMessageHandler> handlerMock);
 
             CountryCodeLookupService countryCodeLookupService =
                 new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
@@ -92,14 +99,17 @@ namespace CountryServices.Tests
             {
                 var countryDetails = countryCodeLookupService.GetCountryDetails(null).Result;
             });
-            Mock.Verify();
+
+            VerifyServiceCreationSteps();
+            VerifyHttpClientSendCall(handlerMock, Times.Never());
+
             Assert.IsInstanceOf(typeof(ArgumentException), ex.InnerException);
         }
 
         [Test]
         public void GivenApiDoesNotRecogniseCode_WhenGetCountryDetailsCalled_ThenExceptionLoggedAndThrown()
         {
-            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS_INVALID_CODE);
+            HttpClient httpClient = GetHttpClientForSend(HttpStatusCode.OK, COUNTRY_DETAILS_INVALID_CODE, out Mock<HttpMessageHandler> handlerMock);
 
             CountryCodeLookupService countryCodeLookupService =
                 new CountryCodeLookupService(httpClient, _mockConfiguration.Object, _mockLogger.Object);
@@ -109,13 +119,33 @@ namespace CountryServices.Tests
                 var countryDetails = countryCodeLookupService.GetCountryDetails("ZZ").Result;
             });
 
+            VerifyServiceCreationSteps();
+            VerifyHttpClientSendCall(handlerMock, Times.Once());
+
             Assert.IsInstanceOf(typeof(ApplicationException), ex.InnerException);
             Assert.AreEqual($"Unexpected data in response to get country details, response: {COUNTRY_DETAILS_INVALID_CODE}", ex.InnerException.Message);
         }
 
-        private static HttpClient GetHttpClientForSend(HttpStatusCode statusCode, string response)
+        private static void VerifyHttpClientSendCall(Mock<HttpMessageHandler> handlerMock, Times times)
         {
-            var handlerMock = new Mock<HttpMessageHandler>(MockBehavior.Strict);
+            handlerMock
+               .Protected()
+               // Setup the PROTECTED method to mock
+               .Verify<Task<HttpResponseMessage>>(
+                  "SendAsync", times,
+                  ItExpr.IsAny<HttpRequestMessage>(),
+                  ItExpr.IsAny<CancellationToken>()
+               );
+        }
+
+        private void VerifyServiceCreationSteps()
+        {
+            _mockConfiguration.Verify(c => c["CountryCodeLookup:Url"], Times.Once);
+        }
+
+        private static HttpClient GetHttpClientForSend(HttpStatusCode statusCode, string response, out Mock<HttpMessageHandler> handlerMock)
+        {
+            handlerMock = new Mock<HttpMessageHandler>(MockBehavior.Strict);
             handlerMock
                .Protected()
                // Setup the PROTECTED method to mock
