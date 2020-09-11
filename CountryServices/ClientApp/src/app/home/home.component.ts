@@ -31,10 +31,12 @@ export class HomeComponent implements OnInit {
       error: () => this.listServiceErrorMessage = 'There was a problem loading the page, please try again later'
     });
   }
+
   onChange() {
     this.countrySummary = null;
     this.detailsServiceErrorMessage = null;
 
+    //If length ok and valid against list then call service to get details
     if (this.inputCode.length > 1 && !this.isInvalid()) {
       
       this.countryLookupService.getCountryDetails(this.inputCode).subscribe({
@@ -43,12 +45,18 @@ export class HomeComponent implements OnInit {
       });
     }
   }
+
   isInvalid() {
+
+    //If we have validation list and its not in there then invalid
     return (this.allValidCodesList &&
       this.inputCode && this.inputCode.length > 1 &&
       this.allValidCodesList.indexOf(this.getInputUpper()) === -1);
   }
+
   isValidCountryCode() {
+
+    //If we have valid list and its in there then valid
     return this.allValidCodesList && this.allValidCodesList.indexOf(this.getInputUpper()) > -1;
   }
 

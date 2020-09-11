@@ -16,12 +16,17 @@ namespace CountryServices.Controllers
     {
         private readonly ILogger<CountryCodeLookupController> _logger;
         private readonly ICountryCodeLookupService _countryCodeLookupService;
+
         public CountryCodeLookupController(ILogger<CountryCodeLookupController> logger, ICountryCodeLookupService countryCodeLookupService)
         {
             _logger = logger;
             _countryCodeLookupService = countryCodeLookupService;
         }
 
+        /// <summary>
+        /// Call service to get all country codes
+        /// </summary>
+        /// <returns>Code list</returns>
         [HttpGet]
         [Route("GetValidCountryCodes")]
         public async Task<ActionResult<IEnumerable<string>>> GetValidCountryCodes()
@@ -29,6 +34,7 @@ namespace CountryServices.Controllers
             try
             {
                 var ret = await _countryCodeLookupService.GetValidCountryCodes();
+
                 return Ok(ret);
             }
             catch(Exception ex)
@@ -38,6 +44,11 @@ namespace CountryServices.Controllers
             }
         }
 
+        /// <summary>
+        /// Call service to get country details
+        /// </summary>
+        /// <param name="code">Country id or iso code</param>
+        /// <returns>Country details</returns>
         [HttpGet]
         [Route("GetCountryDetails/{code}")]
         public async Task<ActionResult<CountrySummary>> GetCountryDetails(string code)
@@ -45,7 +56,8 @@ namespace CountryServices.Controllers
             try
             {
                 var countryDetails = await _countryCodeLookupService.GetCountryDetails(code);
-                return Ok(new CountrySummary(countryDetails));
+
+                return Ok(new CountrySummary(countryDetails));  //Map to view model
             }
             catch(Exception ex)
             {

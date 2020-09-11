@@ -29,8 +29,7 @@ namespace CountryServices.Tests
         [Test]
         public async Task GivenServiceReturnsValidCodes_WhenGetCountryCodesCalled_ThenCodesAreReturned()
         {
-            CountryCodeLookupController countryCodeLookupController =
-                new CountryCodeLookupController(_mockLogger.Object, _mockCountryCodeLookupService.Object);
+            CountryCodeLookupController countryCodeLookupController = GetCountryCodeLookupController();
 
             Task<IEnumerable<string>> task = new Task<IEnumerable<string>>(() => _countryCodes);
             task.Start();
@@ -48,8 +47,7 @@ namespace CountryServices.Tests
         [Test]
         public void GivenServiceThrows_WhenGetCountryCodesCalled_ThenExceptionLoggedAndThrown()
         {
-            CountryCodeLookupController countryCodeLookupController =
-                new CountryCodeLookupController(_mockLogger.Object, _mockCountryCodeLookupService.Object);
+            CountryCodeLookupController countryCodeLookupController = GetCountryCodeLookupController();
 
             var testException = new ApplicationException("Test Exception");
 
@@ -70,8 +68,7 @@ namespace CountryServices.Tests
         [Test]
         public async Task GivenServiceReturnsValidCodes_WhenGetCountryDetails_ThenDetailsAreReturned()
         {
-            CountryCodeLookupController countryCodeLookupController =
-                new CountryCodeLookupController(_mockLogger.Object, _mockCountryCodeLookupService.Object);
+            CountryCodeLookupController countryCodeLookupController = GetCountryCodeLookupController();
 
             CountryDetails countryDetails = new CountryDetails();
 
@@ -91,8 +88,7 @@ namespace CountryServices.Tests
         [Test]
         public void GivenServiceThrows_WhenGetCountryDetails_ThenExceptionLoggedAndThrown()
         {
-            CountryCodeLookupController countryCodeLookupController =
-                new CountryCodeLookupController(_mockLogger.Object, _mockCountryCodeLookupService.Object);
+            CountryCodeLookupController countryCodeLookupController = GetCountryCodeLookupController();
 
             var testException = new ApplicationException("Test Exception");
 
@@ -108,6 +104,11 @@ namespace CountryServices.Tests
             _mockCountryCodeLookupService.Verify(s => s.GetCountryDetails(ISO_CODE_GB), Times.Once);
 
             //TBD verify logging (overcome issues with extension methods)
+        }        
+        
+        private CountryCodeLookupController GetCountryCodeLookupController()
+        {
+            return new CountryCodeLookupController(_mockLogger.Object, _mockCountryCodeLookupService.Object);
         }
     }
 }

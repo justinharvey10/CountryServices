@@ -29,7 +29,10 @@ namespace CountryServices.Services
             _logger = logger;
         }
 
-
+        /// <summary>
+        /// Call bank API to get list of all country details and summarise
+        /// </summary>
+        /// <returns>List of codes</returns>
         public async Task<IEnumerable<string>> GetValidCountryCodes()
         {
             IEnumerable<string> ret = new List<string>();
@@ -44,6 +47,7 @@ namespace CountryServices.Services
 
                 try
                 {
+                    //First item in array is page data so we take the second
                     JArray outerArray = (outerList[1] as JArray);
 
                     ret = outerArray.Select(jo => jo.ToObject<CountryCodeSummary>().Id).
@@ -60,6 +64,11 @@ namespace CountryServices.Services
             return ret;
         }
 
+        /// <summary>
+        /// Rerieve detailed information for country and return it
+        /// </summary>
+        /// <param name="code">Country id or iso code</param>
+        /// <returns>Country detailed information</returns>
         public async Task<CountryDetails> GetCountryDetails(string code)
         {
             if (code == null)
@@ -69,7 +78,7 @@ namespace CountryServices.Services
                 throw new ArgumentException("Null argument value passed for code");
             }
 
-            CountryDetails countryDetails = null;
+            CountryDetails countryDetails;
 
             var request = new HttpRequestMessage(HttpMethod.Get, $"/v2/country/{code}?format=json"); 
 
@@ -80,8 +89,15 @@ namespace CountryServices.Services
 
                 try
                 {
+                    //TBD - handle case where invalid code makes it into this method, deserialise response and return
+                    //as part of the return value which would need extending for this
+
                     var outerList = JsonConvert.DeserializeObject<ArrayList>(stream);
+
+                    //First item in array is page data so we take the second
                     JArray outerArray = (outerList[1] as JArray);
+
+                    //Next take first (and only) item in array
                     countryDetails = outerArray[0].ToObject<CountryDetails>();
                 }
                 catch(Exception e)
