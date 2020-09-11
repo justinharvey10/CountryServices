@@ -41,6 +41,8 @@ namespace CountryServices.Tests
 
             Assert.IsInstanceOf(typeof(OkObjectResult), codes.Result);
             Assert.AreEqual(_countryCodes, (codes.Result as OkObjectResult).Value);
+
+            _mockCountryCodeLookupService.Verify(s => s.GetValidCountryCodes(), Times.Once);
         }
 
         [Test]
@@ -59,6 +61,8 @@ namespace CountryServices.Tests
             });
 
             Assert.AreEqual(testException, ex.InnerException);
+
+            _mockCountryCodeLookupService.Verify(s => s.GetValidCountryCodes(), Times.Once);
 
             //TBD verify logging (overcome issues with extension methods)
         }
@@ -80,6 +84,8 @@ namespace CountryServices.Tests
 
             Assert.IsInstanceOf(typeof(OkObjectResult), codes.Result);
             Assert.AreEqual(countryDetails.name, ((CountrySummary)(codes.Result as OkObjectResult).Value).CountryName);
+
+            _mockCountryCodeLookupService.Verify(s => s.GetCountryDetails(ISO_CODE_GB), Times.Once);
         }
 
         [Test]
@@ -98,6 +104,8 @@ namespace CountryServices.Tests
             });
 
             Assert.AreEqual(testException, ex.InnerException);
+
+            _mockCountryCodeLookupService.Verify(s => s.GetCountryDetails(ISO_CODE_GB), Times.Once);
 
             //TBD verify logging (overcome issues with extension methods)
         }
