@@ -5507,3 +5507,684 @@ i ´¢ówdm´¢ú: Compiled successfully.
 2020-09-11 10:45:52.417 +01:00 [DBG] Connection id "0HM2M6T5O5Q1L" is closed. The last processed stream ID was 1.
 2020-09-11 10:45:52.440 +01:00 [DBG] Connection id "0HM2M6T5O5Q1L" sending FIN because: "The client closed the connection."
 2020-09-11 10:45:52.499 +01:00 [DBG] Connection id "0HM2M6T5O5Q1L" stopped.
+2020-09-11 11:02:56.986 +01:00 [INF] Application Starting
+2020-09-11 11:02:58.651 +01:00 [DBG] Hosting starting
+2020-09-11 11:02:58.723 +01:00 [INF] User profile is available. Using 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-11 11:02:58.738 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-03a02f41-2035-465d-94f8-eb4bf75dba4d.xml'.
+2020-09-11 11:02:58.772 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-27df1ddf-d105-4d5f-852c-dce4c09fae4b.xml'.
+2020-09-11 11:02:58.772 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-8edc1013-bc47-4b36-8dae-5c9e931a44b7.xml'.
+2020-09-11 11:02:58.773 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-eb863e60-4800-4c5b-be9c-f71d48a119ef.xml'.
+2020-09-11 11:02:58.787 +01:00 [DBG] Found key {03a02f41-2035-465d-94f8-eb4bf75dba4d}.
+2020-09-11 11:02:58.795 +01:00 [DBG] Found key {27df1ddf-d105-4d5f-852c-dce4c09fae4b}.
+2020-09-11 11:02:58.795 +01:00 [DBG] Found key {8edc1013-bc47-4b36-8dae-5c9e931a44b7}.
+2020-09-11 11:02:58.796 +01:00 [DBG] Found key {eb863e60-4800-4c5b-be9c-f71d48a119ef}.
+2020-09-11 11:02:58.807 +01:00 [DBG] Considering key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} with expiration date 2020-11-22 18:38:27Z as default key.
+2020-09-11 11:02:58.821 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-11 11:02:58.825 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-11 11:02:58.829 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-11 11:02:58.835 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-11 11:02:58.839 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-11 11:02:58.845 +01:00 [DBG] Using key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} as the default key.
+2020-09-11 11:02:58.846 +01:00 [DBG] Key ring with default key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} was loaded during application startup.
+2020-09-11 11:02:59.232 +01:00 [INF] Starting @angular/cli on port 50237...
+2020-09-11 11:02:59.698 +01:00 [DBG] Loaded hosting startup assembly CountryServices
+2020-09-11 11:02:59.698 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-11 11:02:59.698 +01:00 [INF] Hosting environment: Development
+2020-09-11 11:02:59.699 +01:00 [INF] Content root path: C:\Users\Justin\source\repos\CountryServices2\CountryServices
+2020-09-11 11:02:59.699 +01:00 [DBG] Hosting started
+2020-09-11 11:02:59.872 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/  
+2020-09-11 11:02:59.878 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-11 11:02:59.881 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-11 11:02:59.918 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-11 11:02:59.919 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:33.449 +01:00 [INF] > countryservices@0.0.0 start C:\Users\Justin\source\repos\CountryServices2\CountryServices\ClientApp
+> ng serve "--port" "50237"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:50237/webpack-dev-server/
+
+2020-09-11 11:03:46.650 +01:00 [INF] i ´¢ówds´¢ú: webpack output is served from /
+i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+
+2020-09-11 11:03:46.654 +01:00 [INF] chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 256 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 142 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.45 MB [initial] [rendered]
+Date: 2020-09-11T10:03:46.646Z - Hash: de947e3d39e5b8a65761 - Time: 21416ms
+
+2020-09-11 11:03:46.838 +01:00 [INF] ** Angular Live Development Server is listening on localhost:50237, open your browser on http://localhost:50237/ **
+i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-09-11 11:03:53.234 +01:00 [INF] Request finished in 53364.965ms 200 text/html; charset=UTF-8
+2020-09-11 11:03:53.335 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/vendor.js  
+2020-09-11 11:03:53.350 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/main.js  
+2020-09-11 11:03:53.365 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-11 11:03:53.365 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-11 11:03:53.365 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-11 11:03:53.366 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-11 11:03:53.366 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:53.366 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:53.376 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/runtime.js  
+2020-09-11 11:03:53.377 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-11 11:03:53.378 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-11 11:03:53.378 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:53.384 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/styles.css  
+2020-09-11 11:03:53.385 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-11 11:03:53.385 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-11 11:03:53.385 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:53.399 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/polyfills.js  
+2020-09-11 11:03:53.400 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-11 11:03:53.400 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-11 11:03:53.400 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:55.601 +01:00 [INF] Request finished in 2225.3958ms 200 application/javascript; charset=UTF-8
+2020-09-11 11:03:55.812 +01:00 [INF] Request finished in 2462.6372ms 200 application/javascript; charset=UTF-8
+2020-09-11 11:03:55.883 +01:00 [INF] Request finished in 2483.1758ms 200 application/javascript; charset=UTF-8
+2020-09-11 11:03:55.897 +01:00 [INF] Request finished in 2511.3144ms 200 text/css; charset=UTF-8
+2020-09-11 11:03:55.968 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/runtime.js.map  
+2020-09-11 11:03:55.969 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/main.js.map  
+2020-09-11 11:03:55.969 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-11 11:03:55.969 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-11 11:03:55.969 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:55.986 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-11 11:03:55.986 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-11 11:03:55.986 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:56.049 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/polyfills.js.map  
+2020-09-11 11:03:56.049 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-11 11:03:56.049 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-11 11:03:56.049 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:56.106 +01:00 [INF] Request finished in 2770.6005ms 200 application/javascript; charset=UTF-8
+2020-09-11 11:03:56.534 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/vendor.js.map  
+2020-09-11 11:03:56.536 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-11 11:03:56.538 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-11 11:03:56.540 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:56.988 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetValidCountryCodes  
+2020-09-11 11:03:56.990 +01:00 [DBG] The request path /api/CountryCodeLookup/GetValidCountryCodes does not match a supported file type
+2020-09-11 11:03:57.006 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-11 11:03:57.013 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)' with route pattern 'api/CountryCodeLookup/GetValidCountryCodes' is valid for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-11 11:03:57.014 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 11:03:57.015 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 11:03:57.071 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/sockjs-node/info?t=1599818637030  
+2020-09-11 11:03:57.071 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-11 11:03:57.071 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-11 11:03:57.071 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:03:57.089 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/favicon.ico  
+2020-09-11 11:03:57.099 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-09-11 11:03:57.132 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Justin\source\repos\CountryServices2\CountryServices\wwwroot\favicon.ico'
+2020-09-11 11:03:57.132 +01:00 [INF] Request finished in 43.5376ms 200 image/x-icon
+2020-09-11 11:03:57.239 +01:00 [INF] Route matched with {action = "GetValidCountryCodes", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]]] GetValidCountryCodes() on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 11:03:57.244 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 11:03:57.244 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 11:03:57.244 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 11:03:57.244 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 11:03:57.244 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 11:03:57.246 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 11:03:57.256 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 11:03:57.287 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-11 11:03:57.289 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-11 11:03:57.687 +01:00 [INF] Received HTTP response after 391.8065ms - "OK"
+2020-09-11 11:03:57.689 +01:00 [INF] End processing HTTP request after 403.1917ms - "OK"
+2020-09-11 11:03:58.171 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 11:03:58.175 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 11:03:58.175 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 11:03:58.175 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 11:03:58.176 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 11:03:58.176 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+Concat2Iterator`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-11 11:03:58.398 +01:00 [INF] Request finished in 2430.0253ms 200 application/json; charset=UTF-8
+2020-09-11 11:03:58.400 +01:00 [INF] Request finished in 2431.962ms 200 application/json; charset=UTF-8
+2020-09-11 11:03:58.405 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices) in 1130.9631ms
+2020-09-11 11:03:58.406 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 11:03:58.407 +01:00 [INF] Request finished in 1421.6106ms 200 application/json; charset=utf-8
+2020-09-11 11:03:58.446 +01:00 [INF] Request finished in 2397.2525ms 200 application/json; charset=UTF-8
+2020-09-11 11:03:58.980 +01:00 [INF] Request finished in 2446.6754ms 200 application/json; charset=UTF-8
+2020-09-11 11:03:59.324 +01:00 [INF] Request finished in 2253.4103ms 200 application/json; charset=UTF-8
+2020-09-11 11:03:59.336 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/sockjs-node/026/t5ncc2kh/websocket  
+2020-09-11 11:03:59.336 +01:00 [DBG] The request path /sockjs-node/026/t5ncc2kh/websocket does not match a supported file type
+2020-09-11 11:03:59.337 +01:00 [DBG] No candidates found for the request path '/sockjs-node/026/t5ncc2kh/websocket'
+2020-09-11 11:03:59.337 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 11:04:02.489 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetCountryDetails/gb  
+2020-09-11 11:04:02.491 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/gb does not match a supported file type
+2020-09-11 11:04:02.495 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-11 11:04:02.495 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-11 11:04:02.495 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 11:04:02.495 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 11:04:02.517 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 11:04:02.517 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 11:04:02.517 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 11:04:02.518 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 11:04:02.518 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 11:04:02.518 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 11:04:02.518 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 11:04:02.519 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 11:04:02.529 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-11 11:04:02.533 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-11 11:04:02.533 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 11:04:02.533 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 11:04:02.534 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-11 11:04:02.537 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-11 11:04:02.543 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-11 11:04:02.543 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-11 11:04:02.644 +01:00 [INF] Received HTTP response after 101.2047ms - "OK"
+2020-09-11 11:04:02.645 +01:00 [INF] End processing HTTP request after 101.8364ms - "OK"
+2020-09-11 11:04:02.670 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 11:04:02.671 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 11:04:02.671 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 11:04:02.671 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 11:04:02.671 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 11:04:02.671 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-11 11:04:02.680 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 159.5374ms
+2020-09-11 11:04:02.681 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 11:04:02.681 +01:00 [INF] Request finished in 191.8861ms 200 application/json; charset=utf-8
+2020-09-11 11:04:30.962 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetCountryDetails/gb  
+2020-09-11 11:04:30.962 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/gb does not match a supported file type
+2020-09-11 11:04:30.963 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-11 11:04:30.964 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-11 11:04:30.964 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 11:04:30.964 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 11:04:30.965 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 11:04:30.966 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 11:04:30.966 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 11:04:30.966 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 11:04:30.966 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 11:04:30.967 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 11:04:30.967 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 11:04:30.968 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 11:04:30.969 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-11 11:04:30.969 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-11 11:04:30.969 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 11:04:30.970 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 11:04:30.970 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-11 11:04:30.970 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-11 11:04:30.971 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-11 11:04:30.971 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-11 11:04:31.069 +01:00 [INF] Received HTTP response after 97.7109ms - "OK"
+2020-09-11 11:04:31.069 +01:00 [INF] End processing HTTP request after 98.3286ms - "OK"
+2020-09-11 11:04:31.071 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 11:04:31.071 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 11:04:31.071 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 11:04:31.072 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 11:04:31.072 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 11:04:31.072 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-11 11:04:31.073 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 106.0452ms
+2020-09-11 11:04:31.073 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 11:04:31.073 +01:00 [INF] Request finished in 111.5598ms 200 application/json; charset=utf-8
+2020-09-11 11:05:57.285 +01:00 [DBG] HttpMessageHandler expired after 120000ms for client 'ICountryCodeLookupService'
+2020-09-11 11:06:07.316 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2020-09-11 11:06:07.323 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.411ms - processed: 1 items - remaining: 0 items
+2020-09-11 15:55:55.282 +01:00 [INF] Application Starting
+2020-09-11 15:55:57.661 +01:00 [DBG] Hosting starting
+2020-09-11 15:55:57.773 +01:00 [INF] User profile is available. Using 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-11 15:55:57.788 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-03a02f41-2035-465d-94f8-eb4bf75dba4d.xml'.
+2020-09-11 15:55:57.829 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-27df1ddf-d105-4d5f-852c-dce4c09fae4b.xml'.
+2020-09-11 15:55:57.830 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-8edc1013-bc47-4b36-8dae-5c9e931a44b7.xml'.
+2020-09-11 15:55:57.832 +01:00 [DBG] Reading data from file 'C:\Users\Justin\AppData\Local\ASP.NET\DataProtection-Keys\key-eb863e60-4800-4c5b-be9c-f71d48a119ef.xml'.
+2020-09-11 15:55:57.846 +01:00 [DBG] Found key {03a02f41-2035-465d-94f8-eb4bf75dba4d}.
+2020-09-11 15:55:57.854 +01:00 [DBG] Found key {27df1ddf-d105-4d5f-852c-dce4c09fae4b}.
+2020-09-11 15:55:57.855 +01:00 [DBG] Found key {8edc1013-bc47-4b36-8dae-5c9e931a44b7}.
+2020-09-11 15:55:57.855 +01:00 [DBG] Found key {eb863e60-4800-4c5b-be9c-f71d48a119ef}.
+2020-09-11 15:55:57.872 +01:00 [DBG] Considering key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} with expiration date 2020-11-22 18:38:27Z as default key.
+2020-09-11 15:55:57.888 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-11 15:55:57.892 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-11 15:55:57.895 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-11 15:55:57.902 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-11 15:55:57.908 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-11 15:55:57.913 +01:00 [DBG] Using key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} as the default key.
+2020-09-11 15:55:57.914 +01:00 [DBG] Key ring with default key {27df1ddf-d105-4d5f-852c-dce4c09fae4b} was loaded during application startup.
+2020-09-11 15:55:59.389 +01:00 [INF] Starting @angular/cli on port 52330...
+2020-09-11 15:55:59.616 +01:00 [DBG] Loaded hosting startup assembly CountryServices
+2020-09-11 15:55:59.617 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-11 15:55:59.617 +01:00 [INF] Hosting environment: Development
+2020-09-11 15:55:59.617 +01:00 [INF] Content root path: C:\Users\Justin\source\repos\CountryServices2\CountryServices
+2020-09-11 15:55:59.617 +01:00 [DBG] Hosting started
+2020-09-11 15:55:59.697 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/  
+2020-09-11 15:55:59.702 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-11 15:55:59.708 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-11 15:55:59.750 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-11 15:55:59.750 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:25.854 +01:00 [INF] > countryservices@0.0.0 start C:\Users\Justin\source\repos\CountryServices2\CountryServices\ClientApp
+> ng serve "--port" "52330"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:52330/webpack-dev-server/
+
+2020-09-11 15:56:40.614 +01:00 [INF] i ´¢ówds´¢ú: webpack output is served from /
+i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+
+2020-09-11 15:56:40.622 +01:00 [INF] chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 256 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 142 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.45 MB [initial] [rendered]
+Date: 2020-09-11T14:56:40.607Z - Hash: de947e3d39e5b8a65761 - Time: 24127ms
+
+2020-09-11 15:56:40.630 +01:00 [INF] ** Angular Live Development Server is listening on localhost:52330, open your browser on http://localhost:52330/ **
+
+2020-09-11 15:56:40.801 +01:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-09-11 15:56:47.009 +01:00 [INF] Request finished in 47315.4562ms 200 text/html; charset=UTF-8
+2020-09-11 15:56:47.120 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/vendor.js  
+2020-09-11 15:56:47.122 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/main.js  
+2020-09-11 15:56:47.205 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-11 15:56:47.205 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-11 15:56:47.205 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-11 15:56:47.205 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-11 15:56:47.205 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:47.205 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:47.210 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/runtime.js  
+2020-09-11 15:56:47.210 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/styles.css  
+2020-09-11 15:56:47.210 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-11 15:56:47.210 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-11 15:56:47.210 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-11 15:56:47.210 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-11 15:56:47.210 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:47.210 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:47.214 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/polyfills.js  
+2020-09-11 15:56:47.215 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-11 15:56:47.215 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-11 15:56:47.215 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:49.424 +01:00 [INF] Request finished in 2213.9347ms 200 application/javascript; charset=UTF-8
+2020-09-11 15:56:50.213 +01:00 [INF] Request finished in 2999.0855ms 200 application/javascript; charset=UTF-8
+2020-09-11 15:56:50.363 +01:00 [INF] Request finished in 3241.6514ms 200 application/javascript; charset=UTF-8
+2020-09-11 15:56:50.376 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/runtime.js.map  
+2020-09-11 15:56:50.376 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-11 15:56:50.377 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-11 15:56:50.377 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:50.443 +01:00 [INF] Request finished in 3233.2382ms 200 text/css; charset=UTF-8
+2020-09-11 15:56:50.739 +01:00 [INF] Request finished in 3618.012ms 200 application/javascript; charset=UTF-8
+2020-09-11 15:56:52.665 +01:00 [INF] Request finished in 2289.2394ms 200 application/json; charset=UTF-8
+2020-09-11 15:56:53.273 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/polyfills.js.map  
+2020-09-11 15:56:53.277 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-11 15:56:53.278 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-11 15:56:53.279 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:55.655 +01:00 [INF] Request finished in 2382.343ms 200 application/json; charset=UTF-8
+2020-09-11 15:56:56.032 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/vendor.js.map  
+2020-09-11 15:56:56.033 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-11 15:56:56.034 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-11 15:56:56.034 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:56:58.765 +01:00 [INF] Request finished in 2732.4868ms 200 application/json; charset=UTF-8
+2020-09-11 15:56:59.174 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/main.js.map  
+2020-09-11 15:56:59.175 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-11 15:56:59.175 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-11 15:56:59.176 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:01.545 +01:00 [INF] Request finished in 2370.9745ms 200 application/json; charset=UTF-8
+2020-09-11 15:57:13.938 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/sockjs-node/info?t=1599836233897  
+2020-09-11 15:57:13.938 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetValidCountryCodes  
+2020-09-11 15:57:13.938 +01:00 [DBG] The request path /api/CountryCodeLookup/GetValidCountryCodes does not match a supported file type
+2020-09-11 15:57:13.938 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-11 15:57:13.938 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-11 15:57:13.938 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:13.988 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-11 15:57:13.994 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)' with route pattern 'api/CountryCodeLookup/GetValidCountryCodes' is valid for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-11 15:57:13.995 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 15:57:13.995 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 15:57:14.032 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-09-11 15:57:14.112 +01:00 [INF] Route matched with {action = "GetValidCountryCodes", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]]] GetValidCountryCodes() on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 15:57:14.113 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 15:57:14.114 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 15:57:14.114 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 15:57:14.114 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 15:57:14.114 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 15:57:14.117 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:14.125 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:14.179 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-11 15:57:14.185 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-11 15:57:14.542 +01:00 [INF] Received HTTP response after 354.6635ms - "OK"
+2020-09-11 15:57:14.544 +01:00 [INF] End processing HTTP request after 366.465ms - "OK"
+2020-09-11 15:57:15.115 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 15:57:15.118 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 15:57:15.118 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 15:57:15.118 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 15:57:15.119 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 15:57:15.119 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+Concat2Iterator`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-11 15:57:15.265 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices) in 1142.3028ms
+2020-09-11 15:57:15.271 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 15:57:15.272 +01:00 [INF] Request finished in 1334.8611ms 200 application/json; charset=utf-8
+2020-09-11 15:57:16.255 +01:00 [INF] Request finished in 2317.1476ms 200 application/json; charset=UTF-8
+2020-09-11 15:57:16.268 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/sockjs-node/321/dcesfiju/websocket  
+2020-09-11 15:57:16.268 +01:00 [DBG] The request path /sockjs-node/321/dcesfiju/websocket does not match a supported file type
+2020-09-11 15:57:16.268 +01:00 [DBG] No candidates found for the request path '/sockjs-node/321/dcesfiju/websocket'
+2020-09-11 15:57:16.268 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:17.120 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetCountryDetails/gb  
+2020-09-11 15:57:17.121 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/gb does not match a supported file type
+2020-09-11 15:57:17.123 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-11 15:57:17.123 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-11 15:57:17.123 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:17.124 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:17.149 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 15:57:17.149 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 15:57:17.149 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 15:57:17.149 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 15:57:17.150 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 15:57:17.150 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 15:57:17.150 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:17.150 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:17.167 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-11 15:57:17.170 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-11 15:57:17.171 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:57:17.171 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:57:17.171 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-11 15:57:17.175 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-11 15:57:17.180 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-11 15:57:17.181 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-11 15:57:17.314 +01:00 [INF] Received HTTP response after 133.3973ms - "OK"
+2020-09-11 15:57:17.314 +01:00 [INF] End processing HTTP request after 133.9638ms - "OK"
+2020-09-11 15:57:17.340 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 15:57:17.340 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 15:57:17.340 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 15:57:17.341 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 15:57:17.341 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 15:57:17.341 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-11 15:57:17.352 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 202.1364ms
+2020-09-11 15:57:17.352 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:17.352 +01:00 [INF] Request finished in 232.2526ms 200 application/json; charset=utf-8
+2020-09-11 15:57:21.542 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetCountryDetails/mt  
+2020-09-11 15:57:21.542 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/mt does not match a supported file type
+2020-09-11 15:57:21.543 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/mt'
+2020-09-11 15:57:21.543 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/mt'
+2020-09-11 15:57:21.543 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:21.543 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:21.544 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 15:57:21.544 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 15:57:21.544 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 15:57:21.544 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 15:57:21.545 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 15:57:21.545 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 15:57:21.545 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:21.547 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:21.547 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-11 15:57:21.547 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-11 15:57:21.548 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:57:21.548 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:57:21.548 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-11 15:57:21.548 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-11 15:57:21.549 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/mt?format=json"
+2020-09-11 15:57:21.549 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/mt?format=json"
+2020-09-11 15:57:21.649 +01:00 [INF] Received HTTP response after 100.4351ms - "OK"
+2020-09-11 15:57:21.650 +01:00 [INF] End processing HTTP request after 101.0145ms - "OK"
+2020-09-11 15:57:21.652 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 15:57:21.652 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 15:57:21.652 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 15:57:21.652 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 15:57:21.652 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 15:57:21.652 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-11 15:57:21.654 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 109.3744ms
+2020-09-11 15:57:21.654 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:21.655 +01:00 [INF] Request finished in 112.592ms 200 application/json; charset=utf-8
+2020-09-11 15:57:29.804 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/styles.css  
+2020-09-11 15:57:29.806 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-11 15:57:29.806 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-11 15:57:29.806 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:29.941 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/vendor.js.map  
+2020-09-11 15:57:29.942 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/runtime.js.map  
+2020-09-11 15:57:29.942 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-11 15:57:29.943 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-11 15:57:29.943 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/polyfills.js.map  
+2020-09-11 15:57:29.943 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:29.943 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-11 15:57:29.943 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-11 15:57:29.943 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-11 15:57:29.943 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:29.944 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-11 15:57:29.944 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:29.952 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/main.js.map  
+2020-09-11 15:57:29.952 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-11 15:57:29.952 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-11 15:57:29.953 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:31.863 +01:00 [INF] Request finished in 2059.1951ms 304 
+2020-09-11 15:57:31.910 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/styles.css.map  
+2020-09-11 15:57:31.910 +01:00 [DBG] The request path /styles.css.map does not match an existing file
+2020-09-11 15:57:31.910 +01:00 [DBG] No candidates found for the request path '/styles.css.map'
+2020-09-11 15:57:31.910 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:31.979 +01:00 [INF] Request finished in 2036.6875ms 304 
+2020-09-11 15:57:31.979 +01:00 [INF] Request finished in 2037.6785ms 304 
+2020-09-11 15:57:31.992 +01:00 [INF] Request finished in 2049.4393ms 304 
+2020-09-11 15:57:31.999 +01:00 [INF] Request finished in 2046.8971ms 200 application/json; charset=UTF-8
+2020-09-11 15:57:34.153 +01:00 [INF] Request finished in 2244.0295ms 304 
+2020-09-11 15:57:34.550 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/  
+2020-09-11 15:57:34.551 +01:00 [DBG] The request path / does not match a supported file type
+2020-09-11 15:57:34.551 +01:00 [DBG] No candidates found for the request path '/'
+2020-09-11 15:57:34.552 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:36.610 +01:00 [INF] Request finished in 2059.8849ms 200 text/html; charset=UTF-8
+2020-09-11 15:57:36.878 +01:00 [DBG] Connection ID "18230571301796315184" disconnecting.
+2020-09-11 15:57:36.879 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/runtime.js  
+2020-09-11 15:57:36.879 +01:00 [DBG] The request path /runtime.js does not match an existing file
+2020-09-11 15:57:36.879 +01:00 [DBG] No candidates found for the request path '/runtime.js'
+2020-09-11 15:57:36.879 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:36.900 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/vendor.js  
+2020-09-11 15:57:36.901 +01:00 [DBG] The request path /vendor.js does not match an existing file
+2020-09-11 15:57:36.901 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/main.js  
+2020-09-11 15:57:36.902 +01:00 [DBG] No candidates found for the request path '/vendor.js'
+2020-09-11 15:57:36.902 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:36.902 +01:00 [DBG] The request path /main.js does not match an existing file
+2020-09-11 15:57:36.902 +01:00 [DBG] No candidates found for the request path '/main.js'
+2020-09-11 15:57:36.902 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:36.926 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/styles.css  
+2020-09-11 15:57:36.926 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/polyfills.js  
+2020-09-11 15:57:36.926 +01:00 [DBG] The request path /styles.css does not match an existing file
+2020-09-11 15:57:36.926 +01:00 [DBG] The request path /polyfills.js does not match an existing file
+2020-09-11 15:57:36.926 +01:00 [DBG] No candidates found for the request path '/styles.css'
+2020-09-11 15:57:36.926 +01:00 [DBG] No candidates found for the request path '/polyfills.js'
+2020-09-11 15:57:36.927 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:36.927 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:36.985 +01:00 [INF] Request finished in 20716.806ms 101 
+2020-09-11 15:57:38.946 +01:00 [INF] Request finished in 2044.8334ms 200 application/javascript; charset=UTF-8
+2020-09-11 15:57:38.947 +01:00 [INF] Request finished in 2068.3604ms 200 application/javascript; charset=UTF-8
+2020-09-11 15:57:39.206 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/main.js.map  
+2020-09-11 15:57:39.206 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-11 15:57:39.206 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-11 15:57:39.206 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:39.339 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/main.js.map  
+2020-09-11 15:57:39.340 +01:00 [DBG] The request path /main.js.map does not match an existing file
+2020-09-11 15:57:39.340 +01:00 [DBG] No candidates found for the request path '/main.js.map'
+2020-09-11 15:57:39.340 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:39.752 +01:00 [INF] Request finished in 2825.8597ms 200 text/css; charset=UTF-8
+2020-09-11 15:57:39.808 +01:00 [INF] Request finished in 2872.1269ms 200 application/javascript; charset=UTF-8
+2020-09-11 15:57:40.358 +01:00 [INF] Request finished in 3457.8968ms 200 application/javascript; charset=UTF-8
+2020-09-11 15:57:41.726 +01:00 [INF] Request finished in 2386.6144ms 200 application/json; charset=UTF-8
+2020-09-11 15:57:42.012 +01:00 [INF] Request finished in 2806.5289ms 304 
+2020-09-11 15:57:42.199 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/runtime.js.map  
+2020-09-11 15:57:42.201 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-11 15:57:42.201 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-11 15:57:42.202 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:42.246 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/runtime.js.map  
+2020-09-11 15:57:42.247 +01:00 [DBG] The request path /runtime.js.map does not match an existing file
+2020-09-11 15:57:42.247 +01:00 [DBG] No candidates found for the request path '/runtime.js.map'
+2020-09-11 15:57:42.247 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:44.559 +01:00 [INF] Request finished in 2360.3479ms 200 application/json; charset=UTF-8
+2020-09-11 15:57:44.561 +01:00 [INF] Request finished in 2315.1045ms 304 
+2020-09-11 15:57:44.979 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/styles.css.map  
+2020-09-11 15:57:44.979 +01:00 [DBG] The request path /styles.css.map does not match an existing file
+2020-09-11 15:57:44.979 +01:00 [DBG] No candidates found for the request path '/styles.css.map'
+2020-09-11 15:57:44.979 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:45.572 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/vendor.js.map  
+2020-09-11 15:57:45.572 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-11 15:57:45.572 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-11 15:57:45.572 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:45.650 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/vendor.js.map  
+2020-09-11 15:57:45.650 +01:00 [DBG] The request path /vendor.js.map does not match an existing file
+2020-09-11 15:57:45.650 +01:00 [DBG] No candidates found for the request path '/vendor.js.map'
+2020-09-11 15:57:45.650 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:47.310 +01:00 [INF] Request finished in 2331.5385ms 304 
+2020-09-11 15:57:48.006 +01:00 [INF] Request finished in 2356.3068ms 304 
+2020-09-11 15:57:49.095 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/polyfills.js.map  
+2020-09-11 15:57:49.095 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-11 15:57:49.095 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-11 15:57:49.095 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:49.261 +01:00 [INF] Request finished in 3688.6707ms 200 application/json; charset=UTF-8
+2020-09-11 15:57:49.749 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/polyfills.js.map  
+2020-09-11 15:57:49.749 +01:00 [DBG] The request path /polyfills.js.map does not match an existing file
+2020-09-11 15:57:49.749 +01:00 [DBG] No candidates found for the request path '/polyfills.js.map'
+2020-09-11 15:57:49.749 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:51.403 +01:00 [INF] Request finished in 2308.4777ms 200 application/json; charset=UTF-8
+2020-09-11 15:57:52.120 +01:00 [INF] Request finished in 2370.674ms 304 
+2020-09-11 15:57:52.721 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetValidCountryCodes  
+2020-09-11 15:57:52.721 +01:00 [DBG] The request path /api/CountryCodeLookup/GetValidCountryCodes does not match a supported file type
+2020-09-11 15:57:52.722 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-11 15:57:52.722 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)' with route pattern 'api/CountryCodeLookup/GetValidCountryCodes' is valid for the request path '/api/CountryCodeLookup/GetValidCountryCodes'
+2020-09-11 15:57:52.722 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 15:57:52.722 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 15:57:52.723 +01:00 [INF] Route matched with {action = "GetValidCountryCodes", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]]] GetValidCountryCodes() on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 15:57:52.723 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 15:57:52.723 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 15:57:52.723 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 15:57:52.723 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 15:57:52.724 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 15:57:52.724 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:52.725 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:52.725 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-11 15:57:52.726 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country?format=json&per_page=500"
+2020-09-11 15:57:52.954 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/sockjs-node/info?t=1599836272639  
+2020-09-11 15:57:52.954 +01:00 [DBG] The request path /sockjs-node/info does not match a supported file type
+2020-09-11 15:57:52.954 +01:00 [DBG] No candidates found for the request path '/sockjs-node/info'
+2020-09-11 15:57:52.955 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:52.987 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/favicon.ico  
+2020-09-11 15:57:53.027 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Justin\source\repos\CountryServices2\CountryServices\wwwroot\favicon.ico'
+2020-09-11 15:57:53.027 +01:00 [INF] Request finished in 40.1657ms 200 image/x-icon
+2020-09-11 15:57:53.082 +01:00 [INF] Received HTTP response after 355.834ms - "OK"
+2020-09-11 15:57:53.082 +01:00 [INF] End processing HTTP request after 356.593ms - "OK"
+2020-09-11 15:57:53.366 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 15:57:53.366 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 15:57:53.366 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 15:57:53.366 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 15:57:53.366 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 15:57:53.367 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+Concat2Iterator`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-09-11 15:57:53.386 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices) in 661.9645ms
+2020-09-11 15:57:53.386 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetValidCountryCodes (CountryServices)'
+2020-09-11 15:57:53.386 +01:00 [INF] Request finished in 665.055ms 200 application/json; charset=utf-8
+2020-09-11 15:57:55.116 +01:00 [INF] Request finished in 2161.7696ms 200 application/json; charset=UTF-8
+2020-09-11 15:57:55.149 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44328/sockjs-node/960/22ak4moe/websocket  
+2020-09-11 15:57:55.150 +01:00 [DBG] The request path /sockjs-node/960/22ak4moe/websocket does not match a supported file type
+2020-09-11 15:57:55.150 +01:00 [DBG] No candidates found for the request path '/sockjs-node/960/22ak4moe/websocket'
+2020-09-11 15:57:55.150 +01:00 [DBG] Request did not match any endpoints
+2020-09-11 15:57:55.767 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetCountryDetails/gb  
+2020-09-11 15:57:55.767 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/gb does not match a supported file type
+2020-09-11 15:57:55.767 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-11 15:57:55.768 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/gb'
+2020-09-11 15:57:55.768 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:55.768 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:55.769 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 15:57:55.769 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 15:57:55.769 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 15:57:55.769 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 15:57:55.770 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 15:57:55.770 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 15:57:55.770 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:55.771 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:57:55.771 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-11 15:57:55.772 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-11 15:57:55.772 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:57:55.772 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:57:55.772 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-11 15:57:55.772 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-11 15:57:55.773 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-11 15:57:55.773 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/gb?format=json"
+2020-09-11 15:57:55.871 +01:00 [INF] Received HTTP response after 97.8736ms - "OK"
+2020-09-11 15:57:55.871 +01:00 [INF] End processing HTTP request after 98.3356ms - "OK"
+2020-09-11 15:57:55.872 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 15:57:55.872 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 15:57:55.872 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 15:57:55.872 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 15:57:55.873 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 15:57:55.873 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-11 15:57:55.874 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 103.3642ms
+2020-09-11 15:57:55.874 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:57:55.874 +01:00 [INF] Request finished in 107.0984ms 200 application/json; charset=utf-8
+2020-09-11 15:58:04.849 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetCountryDetails/mt  
+2020-09-11 15:58:04.850 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/mt does not match a supported file type
+2020-09-11 15:58:04.850 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/mt'
+2020-09-11 15:58:04.850 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/mt'
+2020-09-11 15:58:04.851 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:04.851 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:04.852 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 15:58:04.853 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 15:58:04.854 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 15:58:04.854 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 15:58:04.855 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 15:58:04.855 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 15:58:04.856 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:58:04.857 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:58:04.858 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-11 15:58:04.859 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-11 15:58:04.859 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:58:04.859 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:58:04.859 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-11 15:58:04.860 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-11 15:58:04.861 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/mt?format=json"
+2020-09-11 15:58:04.861 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/mt?format=json"
+2020-09-11 15:58:04.990 +01:00 [INF] Received HTTP response after 128.4993ms - "OK"
+2020-09-11 15:58:04.990 +01:00 [INF] End processing HTTP request after 129.2395ms - "OK"
+2020-09-11 15:58:04.991 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 15:58:04.991 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 15:58:04.991 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 15:58:04.991 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 15:58:04.991 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 15:58:04.991 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-11 15:58:04.992 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 136.7034ms
+2020-09-11 15:58:04.992 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:04.992 +01:00 [INF] Request finished in 143.4534ms 200 application/json; charset=utf-8
+2020-09-11 15:58:08.828 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetCountryDetails/mt  
+2020-09-11 15:58:08.828 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/mt does not match a supported file type
+2020-09-11 15:58:08.829 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/mt'
+2020-09-11 15:58:08.829 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/mt'
+2020-09-11 15:58:08.831 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:08.832 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:08.832 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 15:58:08.832 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 15:58:08.832 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 15:58:08.833 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 15:58:08.833 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 15:58:08.833 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 15:58:08.833 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:58:08.834 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:58:08.834 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-11 15:58:08.834 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-11 15:58:08.834 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:58:08.834 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:58:08.835 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-11 15:58:08.835 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-11 15:58:08.835 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/mt?format=json"
+2020-09-11 15:58:08.835 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/mt?format=json"
+2020-09-11 15:58:09.265 +01:00 [INF] Received HTTP response after 429.5239ms - "OK"
+2020-09-11 15:58:09.265 +01:00 [INF] End processing HTTP request after 429.9197ms - "OK"
+2020-09-11 15:58:09.266 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 15:58:09.266 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 15:58:09.266 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 15:58:09.266 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 15:58:09.266 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 15:58:09.267 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-11 15:58:09.267 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 434.3827ms
+2020-09-11 15:58:09.268 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:09.268 +01:00 [INF] Request finished in 439.5924ms 200 application/json; charset=utf-8
+2020-09-11 15:58:11.065 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/CountryCodeLookup/GetCountryDetails/de  
+2020-09-11 15:58:11.066 +01:00 [DBG] The request path /api/CountryCodeLookup/GetCountryDetails/de does not match a supported file type
+2020-09-11 15:58:11.066 +01:00 [DBG] 1 candidate(s) found for the request path '/api/CountryCodeLookup/GetCountryDetails/de'
+2020-09-11 15:58:11.066 +01:00 [DBG] Endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)' with route pattern 'api/CountryCodeLookup/GetCountryDetails/{code}' is valid for the request path '/api/CountryCodeLookup/GetCountryDetails/de'
+2020-09-11 15:58:11.067 +01:00 [DBG] Request matched endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:11.067 +01:00 [INF] Executing endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:11.067 +01:00 [INF] Route matched with {action = "GetCountryDetails", controller = "CountryCodeLookup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CountryServices.Models.CountrySummary]] GetCountryDetails(System.String) on controller CountryServices.Controllers.CountryCodeLookupController (CountryServices).
+2020-09-11 15:58:11.067 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-11 15:58:11.067 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2020-09-11 15:58:11.067 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-09-11 15:58:11.068 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-11 15:58:11.068 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-11 15:58:11.068 +01:00 [DBG] Executing controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:58:11.068 +01:00 [DBG] Executed controller factory for controller CountryServices.Controllers.CountryCodeLookupController (CountryServices)
+2020-09-11 15:58:11.068 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2020-09-11 15:58:11.069 +01:00 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2020-09-11 15:58:11.069 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:58:11.069 +01:00 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2020-09-11 15:58:11.069 +01:00 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2020-09-11 15:58:11.069 +01:00 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2020-09-11 15:58:11.069 +01:00 [INF] Start processing HTTP request GET "http://api.worldbank.org/v2/country/de?format=json"
+2020-09-11 15:58:11.070 +01:00 [INF] Sending HTTP request GET "http://api.worldbank.org/v2/country/de?format=json"
+2020-09-11 15:58:12.235 +01:00 [INF] Received HTTP response after 1165.5184ms - "OK"
+2020-09-11 15:58:12.235 +01:00 [INF] End processing HTTP request after 1165.8292ms - "OK"
+2020-09-11 15:58:12.236 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-11 15:58:12.236 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-09-11 15:58:12.236 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-11 15:58:12.236 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-11 15:58:12.236 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-11 15:58:12.236 +01:00 [INF] Executing ObjectResult, writing value of type 'CountryServices.Models.CountrySummary'.
+2020-09-11 15:58:12.238 +01:00 [INF] Executed action CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices) in 1170.5825ms
+2020-09-11 15:58:12.238 +01:00 [INF] Executed endpoint 'CountryServices.Controllers.CountryCodeLookupController.GetCountryDetails (CountryServices)'
+2020-09-11 15:58:12.239 +01:00 [INF] Request finished in 1173.2318ms 200 application/json; charset=utf-8
